@@ -1,0 +1,307 @@
+{
+  "majorCode": "DSFD",
+  "majorName": "設計學士學位課程",
+  "totalCredits": 129,
+  "courses": [
+    {
+      "code": "DSFD1101",
+      "name": "創意思維",
+      "credit": 3
+    },
+    {
+      "code": "DSFD1102",
+      "name": "設計描繪",
+      "credit": 3
+    },
+    {
+      "code": "DSFD1103",
+      "name": "視覺構成",
+      "credit": 3
+    },
+    {
+      "code": "DSTR1101",
+      "name": "設計概論",
+      "credit": 3
+    },
+    {
+      "code": "ENGL1101",
+      "name": "英語I",
+      "credit": 3
+    },
+    {
+      "code": "LLAW1101",
+      "name": "憲法與基本法",
+      "credit": 3
+    },
+    {
+      "code": "COMP1101",
+      "name": "資訊科技",
+      "credit": 3
+    },
+    {
+      "code": "DSFD1104",
+      "name": "文字與資訊設計",
+      "credit": 3
+    },
+    {
+      "code": "DSFD1105",
+      "name": "圖像與敍事",
+      "credit": 3
+    },
+    {
+      "code": "DSFD1106",
+      "name": "空間與造型",
+      "credit": 3
+    },
+    {
+      "code": "DSTR1102",
+      "name": "設計與藝術史",
+      "credit": 3
+    },
+    {
+      "code": "ENGL1102",
+      "name": "英語II",
+      "credit": 3
+    },
+    {
+      "code": "DSIN2101",
+      "name": "職業先導",
+      "credit": 3
+    },
+    {
+      "code": "DSSK2101",
+      "name": "藝術設計共同體",
+      "credit": 3
+    },
+    {
+      "code": "DSSK2102",
+      "name": "影像與媒介表達",
+      "credit": 3
+    },
+    {
+      "code": "ENGL2101",
+      "name": "英語III",
+      "credit": 3
+    },
+    {
+      "code": "DSSK2103",
+      "name": "多平台出版",
+      "credit": 3
+    },
+    {
+      "code": "DSSK2104",
+      "name": "生活議題延伸設計",
+      "credit": 3
+    },
+    {
+      "code": "ENGL2102",
+      "name": "英語IV",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "選讀一門載於A1選修組別中的學科單元/科目",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "選讀一門載於B1選修組別中的學科單元/科目",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "選讀四門載於A,B及C選修組別中的學科單元/科目",
+      "credit": 12
+    },
+    {
+      "code": "DSSK3105",
+      "name": "施工與設施",
+      "credit": 3
+    },
+    {
+      "code": "DSTR3103",
+      "name": "設計文化評論",
+      "credit": 3
+    },
+    {
+      "code": "DSSK3106",
+      "name": "數碼技術輔助設計",
+      "credit": 3
+    },
+    {
+      "code": "DSSK3107",
+      "name": "全球化與設計實踐",
+      "credit": 3
+    },
+    {
+      "code": "DSIN3102",
+      "name": "專業實習",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "選讀兩門載於B1選修組別中的學科單元/科目",
+      "credit": 6
+    },
+    {
+      "code": "---",
+      "name": "選讀四門載於A,B及C選修組別中的學科單元/科目",
+      "credit": 12
+    },
+    {
+      "code": "DSGD4101",
+      "name": "畢業創作I",
+      "credit": 3
+    },
+    {
+      "code": "DSIT4101",
+      "name": "整合設計與概念",
+      "credit": 3
+    },
+    {
+      "code": "DSTR4104",
+      "name": "設計研究專題",
+      "credit": 3
+    },
+    {
+      "code": "DSGD4102",
+      "name": "畢業創作II",
+      "credit": 3
+    },
+    {
+      "code": "DSIT4102",
+      "name": "整合設計與實踐",
+      "credit": 3
+    },
+    {
+      "code": "DSSK4108",
+      "name": "設計項目策劃與管理",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "選讀一門載於B1選修組別中的學科單元/科目",
+      "credit": 3
+    },
+    {
+      "code": "CHIN0110",
+      "name": "中國文化導讀",
+      "credit": 3
+    },
+    {
+      "code": "HIST0101",
+      "name": "澳門歷史與文化",
+      "credit": 3
+    },
+    {
+      "code": "PEDU0101",
+      "name": "大學體育",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0101",
+      "name": "美學賞析",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0102",
+      "name": "名畫故事",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0103",
+      "name": "藝術與電影",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0104",
+      "name": "藝術概論",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0105",
+      "name": "舞台音樂欣賞",
+      "credit": 3
+    },
+    {
+      "code": "BUSS0101",
+      "name": "創業與創新",
+      "credit": 3
+    },
+    {
+      "code": "DSCC0101",
+      "name": "文化創意與設計",
+      "credit": 3
+    },
+    {
+      "code": "DSCC0102",
+      "name": "生活空間與文創",
+      "credit": 3
+    },
+    {
+      "code": "DSCC0103",
+      "name": "廣告及營銷設計",
+      "credit": 3
+    },
+    {
+      "code": "DSCC0104",
+      "name": "展示及展覽設計",
+      "credit": 3
+    },
+    {
+      "code": "DSCC0105",
+      "name": "視覺傳達設計",
+      "credit": 3
+    },
+    {
+      "code": "DSTC0101",
+      "name": "互動設計",
+      "credit": 3
+    },
+    {
+      "code": "DSTC0102",
+      "name": "影像製作",
+      "credit": 3
+    },
+    {
+      "code": "DSTC0103",
+      "name": "動態設計",
+      "credit": 3
+    },
+    {
+      "code": "DSTC0104",
+      "name": "前瞻技術應用",
+      "credit": 3
+    },
+    {
+      "code": "DSTC0105",
+      "name": "動畫創作",
+      "credit": 3
+    },
+    {
+      "code": "DSCN0101",
+      "name": "可持續設計",
+      "credit": 3
+    },
+    {
+      "code": "DSCN0102",
+      "name": "社區設計",
+      "credit": 3
+    },
+    {
+      "code": "DSCN0103",
+      "name": "使用者體驗設計",
+      "credit": 3
+    },
+    {
+      "code": "DSCN0104",
+      "name": "實驗設計",
+      "credit": 3
+    },
+    {
+      "code": "DSCN0105",
+      "name": "環境與視覺設計",
+      "credit": 3
+    }
+  ]
+}

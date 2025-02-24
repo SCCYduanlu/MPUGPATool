@@ -1,0 +1,258 @@
+{
+    "majorCode": "ENGL-NEW",
+    "majorName": "中英翻譯學士學位課程（適用於2023/2024學年入學或以後）",
+    "totalCredits": 120,
+    "courses": [
+      {
+        "code": "---",
+        "name": "修讀一門載於選修科目-組別A表內的學科單元/科目以取得2學分",
+        "credit": 2
+      },
+      {
+        "code": "CHIN1123",
+        "name": "現代漢語",
+        "credit": 3
+      },
+      {
+        "code": "COMP1103",
+        "name": "資訊科技",
+        "credit": 3
+      },
+      {
+        "code": "ENGL1121",
+        "name": "英語閱讀I",
+        "credit": 3
+      },
+      {
+        "code": "ENGL1122",
+        "name": "英語閱讀II",
+        "credit": 3
+      },
+      {
+        "code": "ENGL1123",
+        "name": "英語聽說",
+        "credit": 3
+      },
+      {
+        "code": "ENGL1124",
+        "name": "英語寫作",
+        "credit": 3
+      },
+      {
+        "code": "ENGL1125",
+        "name": "高級英語語法",
+        "credit": 3
+      },
+      {
+        "code": "HIST1113",
+        "name": "中國歷史文化",
+        "credit": 2
+      },
+      {
+        "code": "LLAW1110",
+        "name": "憲法與基本法",
+        "credit": 2
+      },
+      {
+        "code": "SOCI1112",
+        "name": "社會可持續發展",
+        "credit": 2
+      },
+      {
+        "code": "TRAN1111",
+        "name": "翻譯概論",
+        "credit": 3
+      },
+      {
+        "code": "---",
+        "name": "修讀兩門載於選修科目-組別B表內的學科單元/科目以取得4學分",
+        "credit": 4
+      },
+      {
+        "code": "ENGL2108",
+        "name": "語言學概論",
+        "credit": 3
+      },
+      {
+        "code": "ENGL2109",
+        "name": "高級英語I",
+        "credit": 3
+      },
+      {
+        "code": "ENGL2110",
+        "name": "高級英語II",
+        "credit": 3
+      },
+      {
+        "code": "PORT2135",
+        "name": "葡語I",
+        "credit": 2
+      },
+      {
+        "code": "PORT2136",
+        "name": "葡語II",
+        "credit": 2
+      },
+      {
+        "code": "TRAN2111",
+        "name": "英漢翻譯",
+        "credit": 6
+      },
+      {
+        "code": "TRAN2112",
+        "name": "漢英翻譯",
+        "credit": 6
+      },
+      {
+        "code": "TRAN2113",
+        "name": "口譯基礎",
+        "credit": 3
+      },
+      {
+        "code": "TRAN2114",
+        "name": "計算機輔助翻譯",
+        "credit": 2
+      },
+      {
+        "code": "---",
+        "name": "修讀兩門載於選修科目-組別C表內的學科單元/科目以取得4學分",
+        "credit": 4
+      },
+      {
+        "code": "PORT3135",
+        "name": "葡語III",
+        "credit": 2
+      },
+      {
+        "code": "PORT3136",
+        "name": "葡語IV",
+        "credit": 2
+      },
+      {
+        "code": "TRAN3113",
+        "name": "翻譯理論與批評",
+        "credit": 3
+      },
+      {
+        "code": "TRAN3114",
+        "name": "商貿旅遊與會展翻譯",
+        "credit": 3
+      },
+      {
+        "code": "TRAN3115",
+        "name": "文學翻譯",
+        "credit": 3
+      },
+      {
+        "code": "TRAN3116",
+        "name": "譯後編輯",
+        "credit": 3
+      },
+      {
+        "code": "TRAN3117",
+        "name": "跨文化交際與翻譯",
+        "credit": 3
+      },
+      {
+        "code": "TRAN3119",
+        "name": "英漢交替傳譯",
+        "credit": 4
+      },
+      {
+        "code": "TRAN3120",
+        "name": "漢英交替傳譯",
+        "credit": 4
+      },
+      {
+        "code": "---",
+        "name": "修讀一門載於選修科目-組別D表內的學科單元/科目以取得2學分",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4123",
+        "name": "同聲傳譯",
+        "credit": 6
+      },
+      {
+        "code": "TRAN4124",
+        "name": "政府公文及法律翻譯",
+        "credit": 3
+      },
+      {
+        "code": "TRAN4125",
+        "name": "文體學與翻譯",
+        "credit": 3
+      },
+      {
+        "code": "TRAN4126",
+        "name": "實習",
+        "credit": 3
+      },
+      {
+        "code": "TRAN4127",
+        "name": "畢業報告",
+        "credit": 6
+      },
+      {
+        "code": "ENGL1126",
+        "name": "英語國家概況",
+        "credit": 2
+      },
+      {
+        "code": "ENGL1127",
+        "name": "英語精進",
+        "credit": 2
+      },
+      {
+        "code": "CHIN2137",
+        "name": "中國現當代文學",
+        "credit": 2
+      },
+      {
+        "code": "CHIN2138",
+        "name": "中文應用文寫作",
+        "credit": 2
+      },
+      {
+        "code": "ENGL2117",
+        "name": "英語演講",
+        "credit": 2
+      },
+      {
+        "code": "ENGL2118",
+        "name": "英語應用文寫作",
+        "credit": 2
+      },
+      {
+        "code": "ENGL3110",
+        "name": "英語文學選讀",
+        "credit": 2
+      },
+      {
+        "code": "HIST3100",
+        "name": "西方文明史",
+        "credit": 2
+      },
+      {
+        "code": "TRAN3118",
+        "name": "科技翻譯",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4128",
+        "name": "健康產業翻譯",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4129",
+        "name": "金融翻譯",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4130",
+        "name": "傳媒翻譯",
+        "credit": 2
+      }
+    ]
+  }
+  

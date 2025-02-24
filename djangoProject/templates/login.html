@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPU GPA Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            width: 100%;
+            max-width: 380px;
+            margin: auto;
+            text-align: left;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        input:focus, select:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+        }
+
+        button {
+            width: 100%;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            box-shadow: 0px 4px 10px rgba(255, 87, 34, 0.5);
+            transform: scale(1.05);
+        }
+
+        .disclaimer {
+            font-size: 14px;
+            color: #555;
+            margin-top: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* 响应式设计部分 */
+        @media only screen and (max-width: 600px) {
+            body {
+                padding: 10px; /* 小屏幕设备的padding */
+                height: auto;  /* 适应小屏幕 */
+            }
+
+            h1 {
+                font-size: 24px; /* 小屏幕时调整标题字体大小 */
+            }
+
+            .login-container {
+                width: 90%; /* 在小屏幕下占用更多宽度 */
+                padding: 20px;
+            }
+
+            label {
+                font-size: 14px; /* 小屏幕下减少标签字体大小 */
+            }
+
+            input, select {
+                font-size: 14px; /* 输入框和选择框的字体大小 */
+            }
+
+            button {
+                font-size: 16px; /* 按钮字体大小调整 */
+                padding: 10px;
+            }
+
+            .disclaimer {
+                font-size: 12px; /* 小屏幕下显示更小的免责声明文字 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>MPU GPA Tool</h1>
+        <div class="login-container">
+            <form method="POST">
+                {% csrf_token %}
+                <label>MPU 学生账号:</label>
+                <input type="text" name="username" required>
+
+                <label>密码:</label>
+                <input type="password" name="password" required>
+
+                <label>选择专业:</label>
+                <select name="major">
+                    <option value="COMP-OLD">💻 電腦學學士學位課程（適用於2022/2023學年入學或以前）</option>
+                    <option value="CMOP-NEW">💻 電腦學理學士學位課程（適用於2023/2024學年入學或以後）</option>
+                    <option value="COMP-AI">🤖 人工智能理學士學位課程</option>
+                    <option value="ENGL-OLD">🌏 中英翻譯學士學位課程（適用於2022/2023學年入學或以前）</option>
+                    <option value="ENGL-NEW">🌏 中英翻譯學士學位課程（適用於2023/2024學年入學或以後）</option>
+                    <option value="4LBMFDCIU">⚕️ 生物醫學技術理學士學位課程（藥劑技術）</option>
+                    <option value="4LBMADCIU">⚕️ 生物醫學技術理學士學位課程（檢驗技術）</option>
+                    <option value="SOCI">🧑‍⚕️️ 社會工作學學士學位課程</option>
+                    <option value="PE-OLD">🏃‍♂️ 體育教育學士學位課程（適用於2022/2023學年入學或以前）</option>
+                    <option value="PE-NEW">🏃‍♀️ 體育教育學士學位課程（適用於2023/2024學年入學或以後）</option>
+                    <option value="BUSS">📈 管理學學士學位課程</option>
+                    <option value="DSFD">🎨 設計學士學位課程</option>
+                    <option value="CHIN">🀄 國際漢語教育學士學位課程（適用於漢語母語者）</option>
+                    
+                    <option value="VART-OLD">🎨 視覺藝術學士學位課程（適用於2022/2023學年入學或以前）</option>
+                    <option value="VART-NEW">🎨 視覺藝術學士學位課程（適用於2023/2024學年入學或以後）</option>
+
+                </select>
+
+                <button type="submit">开始计算 ➜</button>
+            </form>
+            <p class="disclaimer">⚠️ 你输入的学生密码不会以任何的形式储存进服务器</p>
+            <p class="disclaimer">仅用于临时请求成绩表格</p>
+        </div>
+    </div>
+</body>
+</html>

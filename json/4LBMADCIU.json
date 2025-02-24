@@ -1,0 +1,318 @@
+{
+    "majorCode": "4LBMADCIU",
+    "majorName": "生物醫學技術理學士學位課程（檢驗技術）",
+    "totalCredits": 163,
+    "courses": [
+      {
+        "code": "BSAP1101",
+        "name": "解剖生理學",
+        "credit": 4
+      },
+      {
+        "code": "BSBC1102",
+        "name": "生物化學",
+        "credit": 4
+      },
+      {
+        "code": "BSCB1101",
+        "name": "細胞生物學",
+        "credit": 3
+      },
+      {
+        "code": "BSGB1101",
+        "name": "基礎生物",
+        "credit": 3
+      },
+      {
+        "code": "BSGC1101",
+        "name": "基礎化學",
+        "credit": 3
+      },
+      {
+        "code": "BSIM1102",
+        "name": "免疫學",
+        "credit": 3
+      },
+      {
+        "code": "BSLP1101",
+        "name": "檢驗專業導論",
+        "credit": 1
+      },
+      {
+        "code": "BSLT1101",
+        "name": "基本檢驗實驗技術I",
+        "credit": 4
+      },
+      {
+        "code": "BSLT1102",
+        "name": "基本檢驗實驗技術II",
+        "credit": 4
+      },
+      {
+        "code": "BSMB1102",
+        "name": "微生物學",
+        "credit": 4
+      },
+      {
+        "code": "BSOC1102",
+        "name": "有機化學",
+        "credit": 3
+      },
+      {
+        "code": "BSPP1102",
+        "name": "病理生理學",
+        "credit": 4
+      },
+      {
+        "code": "COMP1101",
+        "name": "資訊概論",
+        "credit": 2
+      },
+      {
+        "code": "COMP1102",
+        "name": "進階電腦應用",
+        "credit": 2
+      },
+      {
+        "code": "ENGL1101",
+        "name": "英語I",
+        "credit": 3
+      },
+      {
+        "code": "ENGL1102",
+        "name": "英語II",
+        "credit": 3
+      },
+      {
+        "code": "LLAW1110",
+        "name": "憲法與基本法",
+        "credit": 2
+      },
+      {
+        "code": "PEDU1100",
+        "name": "大學體育",
+        "credit": 2
+      },
+      {
+        "code": "---",
+        "name": "一門載於選修科目表A內的科目",
+        "credit": 2
+      },
+      {
+        "code": "---",
+        "name": "一門載於選修科目表B內的科目",
+        "credit": 2
+      },
+      {
+        "code": "BSAC2101",
+        "name": "分析化學",
+        "credit": 3
+      },
+      {
+        "code": "BSCC2101",
+        "name": "臨床化學",
+        "credit": 6
+      },
+      {
+        "code": "BSCI2102",
+        "name": "臨床免疫學",
+        "credit": 4
+      },
+      {
+        "code": "BSCM2101",
+        "name": "臨床微生物學與微生物檢驗",
+        "credit": 6
+      },
+      {
+        "code": "BSCM2102",
+        "name": "臨床鏡檢學",
+        "credit": 3
+      },
+      {
+        "code": "BSHM2102",
+        "name": "臨床血液學與血液檢驗",
+        "credit": 6
+      },
+      {
+        "code": "BSPA2102",
+        "name": "寄生蟲學與寄生蟲檢驗",
+        "credit": 2
+      },
+      {
+        "code": "BSVR2101",
+        "name": "病毒學與病毒檢驗",
+        "credit": 2
+      },
+      {
+        "code": "CHIN2121",
+        "name": "大學語文I",
+        "credit": 2
+      },
+      {
+        "code": "CHIN2122",
+        "name": "大學語文II",
+        "credit": 2
+      },
+      {
+        "code": "ENGL2101",
+        "name": "英語III",
+        "credit": 3
+      },
+      {
+        "code": "ENGL2102",
+        "name": "英語IV",
+        "credit": 3
+      },
+      {
+        "code": "---",
+        "name": "一門載於選修科目表B內的科目",
+        "credit": 2
+      },
+      {
+        "code": "---",
+        "name": "一門載於選修科目表B內的科目",
+        "credit": 2
+      },
+      {
+        "code": "BSBB3102",
+        "name": "免疫血液學 (血庫學)",
+        "credit": 2
+      },
+      {
+        "code": "BSHE3102",
+        "name": "衛生教育與健康促進",
+        "credit": 3
+      },
+      {
+        "code": "BSHP3101",
+        "name": "組織病理學",
+        "credit": 5
+      },
+      {
+        "code": "BSLM3102",
+        "name": "實驗室管理",
+        "credit": 3
+      },
+      {
+        "code": "BSMB3101",
+        "name": "分子生物學技術",
+        "credit": 6
+      },
+      {
+        "code": "BSMD3102",
+        "name": "分子診斷學",
+        "credit": 4
+      },
+      {
+        "code": "BSPH3101",
+        "name": "公共衛生檢驗學 (化學分析)",
+        "credit": 3
+      },
+      {
+        "code": "BSPH3102",
+        "name": "公共衛生檢驗學 (微生物分析)",
+        "credit": 4
+      },
+      {
+        "code": "BSRM3102",
+        "name": "研究方法",
+        "credit": 4
+      },
+      {
+        "code": "BSST3101",
+        "name": "生物統計學",
+        "credit": 3
+      },
+      {
+        "code": "ENGL3101",
+        "name": "英語V",
+        "credit": 2
+      },
+      {
+        "code": "ENGL3102",
+        "name": "英語VI",
+        "credit": 2
+      },
+      {
+        "code": "BSIL4101",
+        "name": "實習I",
+        "credit": 5
+      },
+      {
+        "code": "BSIL4102",
+        "name": "實習II",
+        "credit": 5
+      },
+      {
+        "code": "BSTL4101",
+        "name": "專題習作I",
+        "credit": 2
+      },
+      {
+        "code": "BSTL4102",
+        "name": "專題習作II",
+        "credit": 4
+      },
+      {
+        "code": "ENGL4101",
+        "name": "英語VII",
+        "credit": 2
+      },
+      {
+        "code": "ENGL4102",
+        "name": "英語VIII",
+        "credit": 2
+      },
+      {
+        "code": "CHIN2100",
+        "name": "中國文化導讀",
+        "credit": 2
+      },
+      {
+        "code": "HIST1111",
+        "name": "澳門歷史與文化",
+        "credit": 2
+      },
+      {
+        "code": "HIST1112",
+        "name": "世界文化與自然遺產",
+        "credit": 2
+      },
+      {
+        "code": "MUS1100",
+        "name": "音樂與電影賞析",
+        "credit": 2
+      },
+      {
+        "code": "PHIL2100",
+        "name": "哲學導論",
+        "credit": 2
+      },
+      {
+        "code": "SOCI2100",
+        "name": "社會學導論",
+        "credit": 2
+      },
+      {
+        "code": "BSPE1101",
+        "name": "臨床營養學",
+        "credit": 2
+      },
+      {
+        "code": "BSPE2101",
+        "name": "食品安全",
+        "credit": 2
+      },
+      {
+        "code": "BSPE2102",
+        "name": "公共衛生與預防醫學",
+        "credit": 2
+      },
+      {
+        "code": "PSYC1100",
+        "name": "心理學",
+        "credit": 2
+      }
+    ]
+  }
+  

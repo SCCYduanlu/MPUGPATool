@@ -1,0 +1,378 @@
+{
+    "majorCode": "COMP-AI",
+    "majorName": "人工智能理學士學位課程",
+    "totalCredits": 126,
+    "courses": [
+      {
+        "code": "COMP1121",
+        "name": "計算機科學導論及其應用",
+        "credit": 3
+      },
+      {
+        "code": "COMP1122",
+        "name": "程式設計導論",
+        "credit": 3
+      },
+      {
+        "code": "COMP1123",
+        "name": "計算機組成原理",
+        "credit": 3
+      },
+      {
+        "code": "COMP1124",
+        "name": "進階程式設計",
+        "credit": 3
+      },
+      {
+        "code": "COMP1125",
+        "name": "電子商貿導論",
+        "credit": 3
+      },
+      {
+        "code": "HIST1120",
+        "name": "中國歷史文化",
+        "credit": 2
+      },
+      {
+        "code": "LLAW1120",
+        "name": "憲法與基本法",
+        "credit": 2
+      },
+      {
+        "code": "MATH1111",
+        "name": "線性代數",
+        "credit": 3
+      },
+      {
+        "code": "MATH1112",
+        "name": "微積分",
+        "credit": 3
+      },
+      {
+        "code": "MATH1113",
+        "name": "離散數學",
+        "credit": 3
+      },
+      {
+        "code": "MENG1111",
+        "name": "英語I",
+        "credit": 3
+      },
+      {
+        "code": "MENG1112",
+        "name": "英語II",
+        "credit": 3
+      },
+      {
+        "code": "COMP2111",
+        "name": "資料庫設計",
+        "credit": 3
+      },
+      {
+        "code": "COMP2112",
+        "name": "數據結構與算法",
+        "credit": 3
+      },
+      {
+        "code": "COMP2113",
+        "name": "操作系統",
+        "credit": 3
+      },
+      {
+        "code": "COMP2114",
+        "name": "電腦專業道德概論",
+        "credit": 3
+      },
+      {
+        "code": "COMP2115",
+        "name": "網頁設計與開發",
+        "credit": 3
+      },
+      {
+        "code": "COMP2116",
+        "name": "軟件工程",
+        "credit": 3
+      },
+      {
+        "code": "CSAI2121",
+        "name": "概率與統計學",
+        "credit": 3
+      },
+      {
+        "code": "CSAI2122",
+        "name": "人工智能概論",
+        "credit": 3
+      },
+      {
+        "code": "CSAI2123",
+        "name": "數據科學導論",
+        "credit": 3
+      },
+      {
+        "code": "MENG2111",
+        "name": "英語III",
+        "credit": 3
+      },
+      {
+        "code": "MENG2112",
+        "name": "英語IV",
+        "credit": 3
+      },
+      {
+        "code": "SOCI1112",
+        "name": "社會可持續發展",
+        "credit": 2
+      },
+      {
+        "code": "---",
+        "name": "修讀一門載於選修科目-組別A中的學科單元/科目",
+        "credit": 3
+      },
+      {
+        "code": "---",
+        "name": "修讀一門載於選修科目-組別B中的學科單元/科目",
+        "credit": 3
+      },
+      {
+        "code": "COMP3111",
+        "name": "進階網頁應用開發",
+        "credit": 3
+      },
+      {
+        "code": "COMP3112",
+        "name": "項目管理",
+        "credit": 3
+      },
+      {
+        "code": "CSAI3121",
+        "name": "機器學習和智能數據分析",
+        "credit": 3
+      },
+      {
+        "code": "CSAI3122",
+        "name": "自然語言處理",
+        "credit": 3
+      },
+      {
+        "code": "CSAI3123",
+        "name": "神經網絡和深度學習",
+        "credit": 3
+      },
+      {
+        "code": "CSAI3124",
+        "name": "人工智能應用項目",
+        "credit": 3
+      },
+      {
+        "code": "CSAI3125",
+        "name": "電腦網絡",
+        "credit": 3
+      },
+      {
+        "code": "MENG3111",
+        "name": "科學傳播",
+        "credit": 3
+      },
+      {
+        "code": "---",
+        "name": "修讀一門載於選修科目-組別A中的學科單元/科目",
+        "credit": 3
+      },
+      {
+        "code": "---",
+        "name": "修讀兩門載於選修科目-組別B中的學科單元/科目",
+        "credit": 6
+      },
+      {
+        "code": "COMP4111",
+        "name": "電腦安全與保密",
+        "credit": 3
+      },
+      {
+        "code": "CSAI4121",
+        "name": "人機接口技術",
+        "credit": 3
+      },
+      {
+        "code": "CSAI4299",
+        "name": "畢業報告",
+        "credit": 12
+      },
+      {
+        "code": "COMP4115",
+        "name": "智慧旅遊特選論題",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0124",
+        "name": "語言學概論",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0125",
+        "name": "翻譯學概論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3101",
+        "name": "心理學導論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3102",
+        "name": "社會學導論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3103",
+        "name": "經濟與金融學概論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3105",
+        "name": "市場學",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3108",
+        "name": "會計學原理",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3110",
+        "name": "電子政務",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3111",
+        "name": "特別論題I",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3112",
+        "name": "特別論題II",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3113",
+        "name": "語言教學與技術應用",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3114",
+        "name": "平面設計",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3115",
+        "name": "人際關係與溝通",
+        "credit": 3
+      },
+      {
+        "code": "COMP4116",
+        "name": "數字圖像和多媒體處理",
+        "credit": 3
+      },
+      {
+        "code": "COMP4119",
+        "name": "移動計算與無線網絡",
+        "credit": 3
+      },
+      {
+        "code": "COMP4127",
+        "name": "專業實習",
+        "credit": 3
+      },
+      {
+        "code": "COMP4128",
+        "name": "語料庫技術與應用",
+        "credit": 3
+      },
+      {
+        "code": "COMP4129",
+        "name": "物聯網概論",
+        "credit": 3
+      },
+      {
+        "code": "COMP4130",
+        "name": "大數據概論",
+        "credit": 3
+      },
+      {
+        "code": "COMP4131",
+        "name": "大數據電子商貿",
+        "credit": 3
+      },
+      {
+        "code": "COMP4132",
+        "name": "雲計算",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0111",
+        "name": "專家系統",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0112",
+        "name": "計算機視覺和成像",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0113",
+        "name": "機器翻譯進階論題",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0114",
+        "name": "語音識別技術與應用",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0115",
+        "name": "數據挖掘技術與應用",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0116",
+        "name": "人工智能驅動藥物發現和開發",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0117",
+        "name": "進階人工智能論題I",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0118",
+        "name": "進階人工智能論題II",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0119",
+        "name": "高性能與並行計算",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0120",
+        "name": "領域特定語言",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0121",
+        "name": "計算理論",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0122",
+        "name": "圖形和虛擬環境",
+        "credit": 3
+      },
+      {
+        "code": "CSAI0123",
+        "name": "數值優化",
+        "credit": 3
+      }
+    ]
+  }
+  

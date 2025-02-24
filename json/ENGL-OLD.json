@@ -1,0 +1,398 @@
+{
+    "majorCode": "ENGL-OLD",
+    "majorName": "中英翻譯學士學位課程（適用於2022/2023學年入學或以前）",
+    "totalCredits": 154,
+    "courses": [
+      {
+        "code": "---",
+        "name": "修讀三門載於選修科目表A內的科目",
+        "credit": 6
+      },
+      {
+        "code": "CHIN1101",
+        "name": "現代漢語I",
+        "credit": 3
+      },
+      {
+        "code": "CHIN1102",
+        "name": "現代漢語II",
+        "credit": 3
+      },
+      {
+        "code": "COMP1101",
+        "name": "資訊概論",
+        "credit": 2
+      },
+      {
+        "code": "COMP1102",
+        "name": "進階電腦應用",
+        "credit": 2
+      },
+      {
+        "code": "ENGL1101",
+        "name": "英語I",
+        "credit": 6
+      },
+      {
+        "code": "ENGL1102",
+        "name": "英語II",
+        "credit": 6
+      },
+      {
+        "code": "ENGL1103",
+        "name": "英語聽說I",
+        "credit": 4
+      },
+      {
+        "code": "ENGL1104",
+        "name": "英語聽說II",
+        "credit": 4
+      },
+      {
+        "code": "LLAW1110",
+        "name": "憲法與基本法",
+        "credit": 2
+      },
+      {
+        "code": "TRAN1101",
+        "name": "翻譯學概論",
+        "credit": 2
+      },
+  
+      {
+        "code": "---",
+        "name": "修讀兩門於載選修科目表B內的科目",
+        "credit": 4
+      },
+      {
+        "code": "---",
+        "name": "修讀兩門於載選修科目表C內的科目",
+        "credit": 4
+      },
+      {
+        "code": "CHIN2101",
+        "name": "中文寫作",
+        "credit": 3
+      },
+      {
+        "code": "CHIN2102",
+        "name": "中文應用文寫作",
+        "credit": 3
+      },
+      {
+        "code": "ENGL2101",
+        "name": "英語III",
+        "credit": 4
+      },
+      {
+        "code": "ENGL2102",
+        "name": "英語IV",
+        "credit": 4
+      },
+      {
+        "code": "ENGL2103",
+        "name": "文學概論",
+        "credit": 2
+      },
+      {
+        "code": "ENGL2104",
+        "name": "英文應用寫作",
+        "credit": 2
+      },
+      {
+        "code": "ENGL2105",
+        "name": "應用語言學I",
+        "credit": 2
+      },
+      {
+        "code": "ENGL2106",
+        "name": "應用語言學II",
+        "credit": 2
+      },
+      {
+        "code": "TRAN2101",
+        "name": "口譯基礎",
+        "credit": 2
+      },
+      {
+        "code": "TRAN2102",
+        "name": "英漢翻譯",
+        "credit": 4
+      },
+      {
+        "code": "TRAN2103",
+        "name": "漢英翻譯",
+        "credit": 4
+      },
+  
+      {
+        "code": "---",
+        "name": "修讀兩門於載選修科目表D內的科目",
+        "credit": 4
+      },
+      {
+        "code": "---",
+        "name": "修讀兩門於載選修科目表E內的科目",
+        "credit": 4
+      },
+      {
+        "code": "CHIN3101",
+        "name": "中國現當代文學I",
+        "credit": 3
+      },
+      {
+        "code": "CHIN3102",
+        "name": "中國現當代文學II",
+        "credit": 3
+      },
+      {
+        "code": "ENGL3103",
+        "name": "高級英語I",
+        "credit": 4
+      },
+      {
+        "code": "ENGL3104",
+        "name": "高級英語II",
+        "credit": 4
+      },
+      {
+        "code": "ENGL3108",
+        "name": "美國文學概要",
+        "credit": 2
+      },
+      {
+        "code": "ENGL3109",
+        "name": "英國文學概要",
+        "credit": 2
+      },
+      {
+        "code": "TRAN3103",
+        "name": "商務翻譯I",
+        "credit": 2
+      },
+      {
+        "code": "TRAN3104",
+        "name": "商務翻譯II",
+        "credit": 2
+      },
+      {
+        "code": "TRAN3105",
+        "name": "英漢交替傳譯",
+        "credit": 4
+      },
+      {
+        "code": "TRAN3106",
+        "name": "漢英交替傳譯",
+        "credit": 4
+      },
+      {
+        "code": "TRAN3107",
+        "name": "翻譯理論",
+        "credit": 2
+      },
+  
+      {
+        "code": "---",
+        "name": "修讀兩門於載選修科目表F內的科目",
+        "credit": 4
+      },
+      {
+        "code": "---",
+        "name": "修讀兩門於載選修科目表G內的科目",
+        "credit": 4
+      },
+      {
+        "code": "CHIN4103",
+        "name": "中文傳意I",
+        "credit": 3
+      },
+      {
+        "code": "CHIN4104",
+        "name": "中文傳意II",
+        "credit": 3
+      },
+      {
+        "code": "TRAN4106",
+        "name": "畢業報告",
+        "credit": 4
+      },
+      {
+        "code": "TRAN4107",
+        "name": "文學翻譯I",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4108",
+        "name": "文學翻譯II",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4109",
+        "name": "同聲傳譯",
+        "credit": 4
+      },
+      {
+        "code": "TRAN4110",
+        "name": "研究方法與論文寫作",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4111",
+        "name": "傳媒翻譯",
+        "credit": 3
+      },
+      {
+        "code": "TRAN4112",
+        "name": "翻譯批評",
+        "credit": 3
+      },
+  
+      {
+        "code": "ENGL1105",
+        "name": "英語語法",
+        "credit": 2
+      },
+      {
+        "code": "ENGL1106",
+        "name": "英語語音",
+        "credit": 2
+      },
+      {
+        "code": "HIST1101",
+        "name": "澳門歷史與文化",
+        "credit": 2
+      },
+      {
+        "code": "MAND1101",
+        "name": "普通話I",
+        "credit": 2
+      },
+      {
+        "code": "MAND1102",
+        "name": "普通話II",
+        "credit": 2
+      },
+  
+      {
+        "code": "FREN2111",
+        "name": "法語I *",
+        "credit": 2
+      },
+      {
+        "code": "FREN2112",
+        "name": "法語II *",
+        "credit": 2
+      },
+      {
+        "code": "PORT2111",
+        "name": "葡萄牙語I *",
+        "credit": 2
+      },
+      {
+        "code": "PORT2112",
+        "name": "葡萄牙語II *",
+        "credit": 2
+      },
+  
+      {
+        "code": "ENGL2107",
+        "name": "英語演講與辯論",
+        "credit": 2
+      },
+      {
+        "code": "HIST2102",
+        "name": "美國社會與文化",
+        "credit": 2
+      },
+      {
+        "code": "HIST2103",
+        "name": "英國社會與文化",
+        "credit": 2
+      },
+      {
+        "code": "TRAN2104",
+        "name": "跨文化交際",
+        "credit": 2
+      },
+  
+      {
+        "code": "FREN3111",
+        "name": "法語III *",
+        "credit": 2
+      },
+      {
+        "code": "FREN3112",
+        "name": "法語IV *",
+        "credit": 2
+      },
+      {
+        "code": "PORT3111",
+        "name": "葡萄牙語III *",
+        "credit": 2
+      },
+      {
+        "code": "PORT3112",
+        "name": "葡萄牙語IV *",
+        "credit": 2
+      },
+  
+      {
+        "code": "CHIN3113",
+        "name": "中國文化導讀",
+        "credit": 2
+      },
+      {
+        "code": "ENGL3107",
+        "name": "英語史",
+        "credit": 2
+      },
+      {
+        "code": "HIST3103",
+        "name": "歐洲文化概要",
+        "credit": 2
+      },
+      {
+        "code": "TRAN3108",
+        "name": "旅遊與博彩翻譯",
+        "credit": 2
+      },
+  
+      {
+        "code": "CHIN4105",
+        "name": "中國古代文學選讀I",
+        "credit": 2
+      },
+      {
+        "code": "CHIN4106",
+        "name": "中國古代文學選讀II",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4113",
+        "name": "文體學與翻譯",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4115",
+        "name": "政府公文翻譯",
+        "credit": 2
+      },
+  
+      {
+        "code": "TRAN4114",
+        "name": "法律翻譯",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4116",
+        "name": "翻譯專題研究",
+        "credit": 2
+      },
+      {
+        "code": "TRAN4117",
+        "name": "翻譯與比較文化研究",
+        "credit": 2
+      }
+    ]
+  }
+  

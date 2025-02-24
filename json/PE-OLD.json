@@ -1,0 +1,292 @@
+{
+  "majorCode": "PE-OLD",
+  "majorName": "體育教育學士學位課程（適用於2022/2023學年入學或以前）",
+  "totalCredits": 145,
+  "courses": [
+    {
+      "code": "LLAW1110",
+      "name": "憲法與基本法",
+      "credit": 2
+    },
+    {
+      "code": "PANA111",
+      "name": "運動解剖學",
+      "credit": 4
+    },
+    {
+      "code": "PBAS111",
+      "name": "籃球",
+      "credit": 4
+    },
+    {
+      "code": "PHAN111",
+      "name": "手球",
+      "credit": 4
+    },
+    {
+      "code": "PHIS111",
+      "name": "體育及運動史",
+      "credit": 2
+    },
+    {
+      "code": "PPED121",
+      "name": "教育學",
+      "credit": 3
+    },
+    {
+      "code": "PPHY111",
+      "name": "運動生理學",
+      "credit": 4
+    },
+    {
+      "code": "PSGM111",
+      "name": "體育遊戲設計與實施",
+      "credit": 2
+    },
+    {
+      "code": "PSWM121",
+      "name": "游泳",
+      "credit": 4
+    },
+    {
+      "code": "PTAF121",
+      "name": "田徑",
+      "credit": 6
+    },
+    {
+      "code": "PPUT122",
+      "name": "普通話I",
+      "credit": 6
+    },
+    {
+      "code": "PENG122",
+      "name": "英文 I",
+      "credit": 6
+    },
+    {
+      "code": "PPOR122",
+      "name": "葡文I",
+      "credit": 6
+    },
+    {
+      "code": "PAER211",
+      "name": "健美操",
+      "credit": 3
+    },
+    {
+      "code": "PBIM221",
+      "name": "運動生物力學",
+      "credit": 4
+    },
+    {
+      "code": "PEDP211",
+      "name": "教育心理學",
+      "credit": 2
+    },
+    {
+      "code": "PFOT221",
+      "name": "足球",
+      "credit": 4
+    },
+    {
+      "code": "PGYM211",
+      "name": "學校體操",
+      "credit": 3
+    },
+    {
+      "code": "PMED211",
+      "name": "運動醫學",
+      "credit": 2
+    },
+    {
+      "code": "PPEP211",
+      "name": "體育心理學",
+      "credit": 2
+    },
+    {
+      "code": "PREC221",
+      "name": "休閒體育理論與實踐",
+      "credit": 4
+    },
+    {
+      "code": "PTFA211",
+      "name": "創傷及急救學",
+      "credit": 2
+    },
+    {
+      "code": "PTOT221",
+      "name": "運動訓練學",
+      "credit": 4
+    },
+    {
+      "code": "PVOL221",
+      "name": "排球",
+      "credit": 4
+    },
+    {
+      "code": "PPUT222",
+      "name": "普通話II",
+      "credit": 6
+    },
+    {
+      "code": "PENG222",
+      "name": "英文 II",
+      "credit": 6
+    },
+    {
+      "code": "PPOR222",
+      "name": "葡文II",
+      "credit": 6
+    },
+    {
+      "code": "PBIC311",
+      "name": "運動生物化學",
+      "credit": 2
+    },
+    {
+      "code": "PDIS321",
+      "name": "殘疾人士之體育運動",
+      "credit": 2
+    },
+    {
+      "code": "PMEV311",
+      "name": "體育測量與評價",
+      "credit": 2
+    },
+    {
+      "code": "PMLC311",
+      "name": "運動技能學",
+      "credit": 3
+    },
+    {
+      "code": "PPES321",
+      "name": "學校體育學",
+      "credit": 4
+    },
+    {
+      "code": "PRSO311",
+      "name": "球拍類項目Ⅰ",
+      "credit": 3
+    },
+    {
+      "code": "PRST311",
+      "name": "球拍類項目Ⅱ",
+      "credit": 3
+    },
+    {
+      "code": "PSOC321",
+      "name": "體育社會學",
+      "credit": 3
+    },
+    {
+      "code": "PSTA311",
+      "name": "體育統計學",
+      "credit": 3
+    },
+    {
+      "code": "PPUT322",
+      "name": "普通話III",
+      "credit": 6
+    },
+    {
+      "code": "PENG322",
+      "name": "英文III",
+      "credit": 6
+    },
+    {
+      "code": "PPOR322",
+      "name": "葡文III",
+      "credit": 6
+    },
+    {
+      "code": "PGRE421",
+      "name": "畢業報告",
+      "credit": 6
+    },
+    {
+      "code": "PMAN411",
+      "name": "體育管理學",
+      "credit": 3
+    },
+    {
+      "code": "PMER411",
+      "name": "體育科學研究方法",
+      "credit": 2
+    },
+    {
+      "code": "PPRA421",
+      "name": "實習",
+      "credit": 6
+    },
+    {
+      "code": "PSEN411",
+      "name": "體育英語",
+      "credit": 3
+    },
+    {
+      "code": "PSSA411",
+      "name": "統計軟件應用",
+      "credit": 2
+    },
+    {
+      "code": "PDAN212",
+      "name": "舞蹈",
+      "credit": 1
+    },
+    {
+      "code": "PTRS212",
+      "name": "傳統體育",
+      "credit": 1
+    },
+    {
+      "code": "PGAM312",
+      "name": "體育博彩",
+      "credit": 1
+    },
+    {
+      "code": "PMAR312",
+      "name": "體育營銷",
+      "credit": 1
+    },
+    {
+      "code": "PCOS412",
+      "name": "格鬥運動",
+      "credit": 1
+    },
+    {
+      "code": "PPTX412",
+      "name": "運動訓練實踐",
+      "credit": 1
+    },
+    {
+      "code": "POBA321",
+      "name": "專修運動 - 籃球",
+      "credit": 8
+    },
+    {
+      "code": "POFO321",
+      "name": "專修運動 - 足球",
+      "credit": 8
+    },
+    {
+      "code": "POGY321",
+      "name": "專修運動 - 體操",
+      "credit": 8
+    },
+    {
+      "code": "POHA321",
+      "name": "專修運動 - 手球",
+      "credit": 8
+    },
+    {
+      "code": "POSW321",
+      "name": "專修運動 - 游泳",
+      "credit": 8
+    },
+    {
+      "code": "POTF321",
+      "name": "專修運動 - 田徑",
+      "credit": 8
+    }
+  ]
+}

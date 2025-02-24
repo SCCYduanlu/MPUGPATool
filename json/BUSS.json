@@ -1,0 +1,317 @@
+{
+  "majorCode": "BUSS",
+  "majorName": "管理學學士學位課程",
+  "totalCredits": 139,
+  "courses": [
+    {
+      "code": "ACCT1100",
+      "name": "會計學原理 I",
+      "credit": 3
+    },
+    {
+      "code": "ACCT1110",
+      "name": "會計學原理 II",
+      "credit": 3
+    },
+    {
+      "code": "BUSS1100",
+      "name": "商業導論",
+      "credit": 3
+    },
+    {
+      "code": "BUSS1110",
+      "name": "管理學導論",
+      "credit": 3
+    },
+    {
+      "code": "COMP1100",
+      "name": "商業軟件應用",
+      "credit": 3
+    },
+    {
+      "code": "COMP1110",
+      "name": "商業電腦與互聯網應用",
+      "credit": 3
+    },
+    {
+      "code": "ECON1100",
+      "name": "微觀經濟學",
+      "credit": 3
+    },
+    {
+      "code": "ECON1110",
+      "name": "宏觀經濟學",
+      "credit": 3
+    },
+    {
+      "code": "ENGL1101",
+      "name": "英語I",
+      "credit": 3
+    },
+    {
+      "code": "ENGL1102",
+      "name": "英語II",
+      "credit": 3
+    },
+    {
+      "code": "LLAW1110",
+      "name": "憲法與基本法",
+      "credit": 2
+    },
+    {
+      "code": "MAND1101",
+      "name": "普通話I",
+      "credit": 3
+    },
+    {
+      "code": "FREN1101",
+      "name": "法語I",
+      "credit": 3
+    },
+    {
+      "code": "JAPN1101",
+      "name": "日語I",
+      "credit": 3
+    },
+    {
+      "code": "PORT1101",
+      "name": "葡萄牙語I",
+      "credit": 3
+    },
+    {
+      "code": "ENGL2101",
+      "name": "英語III",
+      "credit": 3
+    },
+    {
+      "code": "ENGL2102",
+      "name": "英語IV",
+      "credit": 3
+    },
+    {
+      "code": "FINA2120",
+      "name": "財務分析",
+      "credit": 3
+    },
+    {
+      "code": "HHRM2120",
+      "name": "人力資源管理",
+      "credit": 3
+    },
+    {
+      "code": "LLAW2120",
+      "name": "商業法",
+      "credit": 3
+    },
+    {
+      "code": "MATH2100",
+      "name": "商業數學",
+      "credit": 3
+    },
+    {
+      "code": "MATH2110",
+      "name": "商業統計學",
+      "credit": 3
+    },
+    {
+      "code": "MGMT2130",
+      "name": "中小企業管理",
+      "credit": 3
+    },
+    {
+      "code": "MRKT2100",
+      "name": "市場學原理",
+      "credit": 3
+    },
+    {
+      "code": "TOUR2120",
+      "name": "旅遊業管理",
+      "credit": 3
+    },
+    {
+      "code": "MAND1102",
+      "name": "普通話II",
+      "credit": 3
+    },
+    {
+      "code": "FREN1102",
+      "name": "法語II",
+      "credit": 3
+    },
+    {
+      "code": "JAPN1102",
+      "name": "日語II",
+      "credit": 3
+    },
+    {
+      "code": "PORT1102",
+      "name": "葡萄牙語II",
+      "credit": 3
+    },
+    {
+      "code": "BUSS3120",
+      "name": "企業治理與社會責任",
+      "credit": 3
+    },
+    {
+      "code": "BUSS3130",
+      "name": "商業科研方法",
+      "credit": 3
+    },
+    {
+      "code": "COMM3120",
+      "name": "商業傳理技巧",
+      "credit": 3
+    },
+    {
+      "code": "ENGL3101",
+      "name": "英語V",
+      "credit": 3
+    },
+    {
+      "code": "ENGL3102",
+      "name": "英語VI",
+      "credit": 3
+    },
+    {
+      "code": "MGMT2120",
+      "name": "組織行為學",
+      "credit": 3
+    },
+    {
+      "code": "MGMT3120",
+      "name": "營運管理",
+      "credit": 3
+    },
+    {
+      "code": "MGMT3130",
+      "name": "全面優質管理",
+      "credit": 3
+    },
+    {
+      "code": "MGMT3140",
+      "name": "知識管理",
+      "credit": 3
+    },
+    {
+      "code": "MGMT3150",
+      "name": "領導理論與實務",
+      "credit": 3
+    },
+    {
+      "code": "MRKT3120",
+      "name": "零售管理",
+      "credit": 3
+    },
+    {
+      "code": "MRKT3170",
+      "name": "顧客關係管理",
+      "credit": 3
+    },
+    {
+      "code": "ENGL4101",
+      "name": "英語VII",
+      "credit": 3
+    },
+    {
+      "code": "ENGL4102",
+      "name": "英語VIII",
+      "credit": 3
+    },
+    {
+      "code": "MGMT4120",
+      "name": "變革管理",
+      "credit": 3
+    },
+    {
+      "code": "MGMT4130",
+      "name": "跨文化國際企業管理",
+      "credit": 3
+    },
+    {
+      "code": "MGMT4140",
+      "name": "策略管理",
+      "credit": 3
+    },
+    {
+      "code": "MGMT4150",
+      "name": "危機管理",
+      "credit": 3
+    },
+    {
+      "code": "MGMT4160",
+      "name": "管理學特選論題",
+      "credit": 3
+    },
+    {
+      "code": "MGMT4170",
+      "name": "企業管理政策",
+      "credit": 3
+    },
+    {
+      "code": "MGPO4100",
+      "name": "畢業報告I",
+      "credit": 4
+    },
+    {
+      "code": "MGPO4110",
+      "name": "畢業報告II",
+      "credit": 4
+    },
+    {
+      "code": "ACCT3130",
+      "name": "成本會計",
+      "credit": 3
+    },
+    {
+      "code": "BUSS0130",
+      "name": "企業、政府與社會導論",
+      "credit": 3
+    },
+    {
+      "code": "BUSS0131",
+      "name": "企業環保管理",
+      "credit": 3
+    },
+    {
+      "code": "GEOG0110",
+      "name": "地區地理",
+      "credit": 3
+    },
+    {
+      "code": "HIST0110",
+      "name": "澳門歷史與文化",
+      "credit": 3
+    },
+    {
+      "code": "MCCO0140",
+      "name": "商用漢語",
+      "credit": 3
+    },
+    {
+      "code": "MGMT0140",
+      "name": "項目管理導論",
+      "credit": 3
+    },
+    {
+      "code": "MMIS0140",
+      "name": "資訊管理系統",
+      "credit": 3
+    },
+    {
+      "code": "PADM0120",
+      "name": "公共行政導論",
+      "credit": 3
+    },
+    {
+      "code": "PSYC0110",
+      "name": "心理學導論",
+      "credit": 3
+    },
+    {
+      "code": "SOCI1130",
+      "name": "社會學導論",
+      "credit": 3
+    }
+  ]
+}

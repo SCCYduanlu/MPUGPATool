@@ -1,0 +1,372 @@
+{
+  "majorCode": "SOCI",
+  "majorName": "社會工作學學士學位課程",
+  "totalCredits": 148,
+  "courses": [
+    {
+      "code": "---",
+      "name": "修讀一門載於選修科目表A內的科目",
+      "credit": 2
+    },
+    {
+      "code": "COMP1101",
+      "name": "資訊概論",
+      "credit": 2
+    },
+    {
+      "code": "COMP1102",
+      "name": "進階電腦應用",
+      "credit": 2
+    },
+    {
+      "code": "ENGL1101",
+      "name": "英語I",
+      "credit": 4
+    },
+    {
+      "code": "ENGL1102",
+      "name": "英語II",
+      "credit": 4
+    },
+    {
+      "code": "LLAW1110",
+      "name": "憲法與基本法",
+      "credit": 2
+    },
+    {
+      "code": "PSYC1101",
+      "name": "心理學導論",
+      "credit": 3
+    },
+    {
+      "code": "PSYC1102",
+      "name": "個人成長與自我發展",
+      "credit": 3
+    },
+    {
+      "code": "SOCI1101",
+      "name": "社會學導論",
+      "credit": 3
+    },
+    {
+      "code": "SOCI1102",
+      "name": "社會統計學",
+      "credit": 3
+    },
+    {
+      "code": "SOWK1101",
+      "name": "社會工作導論",
+      "credit": 3
+    },
+    {
+      "code": "SOWK1102",
+      "name": "社會工作與澳門社會",
+      "credit": 3
+    },
+    {
+      "code": "SOWK1103",
+      "name": "社會工作助人技巧",
+      "credit": 3
+    },
+    {
+      "code": "ENGL2101",
+      "name": "英語III",
+      "credit": 4
+    },
+    {
+      "code": "ENGL2102",
+      "name": "英語IV",
+      "credit": 4
+    },
+    {
+      "code": "PSYC2101",
+      "name": "人類行為與社會環境I",
+      "credit": 3
+    },
+    {
+      "code": "PSYC2102",
+      "name": "人類行為與社會環境II",
+      "credit": 3
+    },
+    {
+      "code": "SOCI2101",
+      "name": "當代社會問題",
+      "credit": 3
+    },
+    {
+      "code": "SOCI2102",
+      "name": "健康、疾病與弱能",
+      "credit": 3
+    },
+    {
+      "code": "SOWK2101",
+      "name": "社會工作實務I: 個人與家庭",
+      "credit": 3
+    },
+    {
+      "code": "SOWK2102",
+      "name": "社會工作實務II: 小組",
+      "credit": 3
+    },
+    {
+      "code": "SOWK2103",
+      "name": "社會工作實務III: 組織與社區",
+      "credit": 3
+    },
+    {
+      "code": "SOWK2104",
+      "name": "社會工作研究方法",
+      "credit": 3
+    },
+    {
+      "code": "SOWK2105",
+      "name": "社會工作與法律",
+      "credit": 3
+    },
+    {
+      "code": "SOWK2106",
+      "name": "社會福利政策",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "修讀兩門載於選修科目表B內的科目",
+      "credit": 6
+    },
+    {
+      "code": "ENGL3101",
+      "name": "英語V",
+      "credit": 4
+    },
+    {
+      "code": "PSYC3101",
+      "name": "精神失調",
+      "credit": 3
+    },
+    {
+      "code": "PSYC3102",
+      "name": "社會心理學",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3101",
+      "name": "社會工作行政",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3102",
+      "name": "當代社會工作理論",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3103",
+      "name": "家庭與社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3104",
+      "name": "整合社會工作實務研討",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3151",
+      "name": "社會工作實習I",
+      "credit": 9
+    },
+    {
+      "code": "---",
+      "name": "修讀兩門載於選修科目表C內的科目",
+      "credit": 6
+    },
+    {
+      "code": "SOWK4101",
+      "name": "社會政策專題研討",
+      "credit": 3
+    },
+    {
+      "code": "SOWK4102",
+      "name": "博彩娛樂與社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK4103",
+      "name": "哲學、倫理與社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK4104",
+      "name": "社會工作與多元性",
+      "credit": 3
+    },
+    {
+      "code": "SOWK4152",
+      "name": "社會工作實習II",
+      "credit": 9
+    },
+    {
+      "code": "SOWK4153",
+      "name": "社會工作實習III",
+      "credit": 9
+    },
+    {
+      "code": "BUSS1111",
+      "name": "商業概論",
+      "credit": 2
+    },
+    {
+      "code": "CHIN1111",
+      "name": "中國文化導讀",
+      "credit": 2
+    },
+    {
+      "code": "CHIN1112",
+      "name": "大學語文I",
+      "credit": 2
+    },
+    {
+      "code": "GEOG1111",
+      "name": "地理概論",
+      "credit": 2
+    },
+    {
+      "code": "HIST1111",
+      "name": "澳門歷史與文化",
+      "credit": 2
+    },
+    {
+      "code": "HIST1112",
+      "name": "世界文化與自然遺產",
+      "credit": 2
+    },
+    {
+      "code": "MUS1111",
+      "name": "音樂與電影賞析",
+      "credit": 2
+    },
+    {
+      "code": "PEDU1111",
+      "name": "大學體育",
+      "credit": 2
+    },
+    {
+      "code": "PHIL1111",
+      "name": "哲學導論",
+      "credit": 2
+    },
+    {
+      "code": "SCIE1111",
+      "name": "自然生態環保科學",
+      "credit": 2
+    },
+    {
+      "code": "SOCI1111",
+      "name": "全球化與澳門經濟及政治",
+      "credit": 2
+    },
+    {
+      "code": "SOWK3111",
+      "name": "青少年社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3112",
+      "name": "老人社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3113",
+      "name": "弱勢社群社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3114",
+      "name": "精神失調與社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3115",
+      "name": "弱能與社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3116",
+      "name": "藥物濫用與社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3117",
+      "name": "國際社會工作",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3118",
+      "name": "社會工作與社會政策實務",
+      "credit": 3
+    },
+    {
+      "code": "SOWK3119",
+      "name": "社會工作實務專題研討",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4111",
+      "name": "中國社會福利",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4112",
+      "name": "比較社會保障制度",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4113",
+      "name": "社會發展",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4114",
+      "name": "集體行為與社會運動",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4115",
+      "name": "性別研究",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4116",
+      "name": "流行文化研究",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4117",
+      "name": "犯罪與越軌",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4118",
+      "name": "死亡與哀傷",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4119",
+      "name": "人類性學",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4120",
+      "name": "親密關係",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4121",
+      "name": "組織行為",
+      "credit": 3
+    },
+    {
+      "code": "SOCI4122",
+      "name": "社會科學專題研討",
+      "credit": 3
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "majorCode": "VART-OLD",
+  "majorName": "視覺藝術學士學位課程（適用於2022/2023學年入學或以前）",
+  "totalCredits": 161,
+  "courses": [
+    {
+      "code": "---",
+      "name": "一門載於選修科目表A內的科目",
+      "credit": 2
+    },
+    {
+      "code": "ENGL1101",
+      "name": "英語I",
+      "credit": 2
+    },
+    {
+      "code": "ENGL1102",
+      "name": "英語II",
+      "credit": 2
+    },
+    {
+      "code": "LLAW1110",
+      "name": "憲法與基本法",
+      "credit": 2
+    },
+    {
+      "code": "VART1101",
+      "name": "中國美術史",
+      "credit": 2
+    },
+    {
+      "code": "VART1102",
+      "name": "西方美術史",
+      "credit": 2
+    },
+    {
+      "code": "VART1103",
+      "name": "書法",
+      "credit": 2
+    },
+    {
+      "code": "VART1104",
+      "name": "線描造形",
+      "credit": 3
+    },
+    {
+      "code": "VART1105",
+      "name": "藝術美學導論",
+      "credit": 2
+    },
+    {
+      "code": "VART1111",
+      "name": "中國畫基礎I",
+      "credit": 2
+    },
+    {
+      "code": "VART1121",
+      "name": "油畫基礎I",
+      "credit": 2
+    },
+    {
+      "code": "VART1131",
+      "name": "版畫基礎I",
+      "credit": 2
+    },
+    {
+      "code": "VART1141",
+      "name": "雕塑基礎I",
+      "credit": 2
+    },
+    {
+      "code": "VART1151",
+      "name": "陶藝基礎I",
+      "credit": 2
+    },
+    {
+      "code": "VART1181",
+      "name": "色彩I",
+      "credit": 3
+    },
+    {
+      "code": "VART1182",
+      "name": "色彩II",
+      "credit": 3
+    },
+    {
+      "code": "VART1191",
+      "name": "素描I",
+      "credit": 4
+    },
+    {
+      "code": "VART1192",
+      "name": "素描II",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "一門載於選修科目表A內的科目",
+      "credit": 2
+    },
+    {
+      "code": "---",
+      "name": "兩門載於選修科目表C1至C5內已選範疇的科目",
+      "credit": 4
+    },
+    {
+      "code": "---",
+      "name": "三或四門載於已選專業範疇的科目",
+      "credit": 9
+    },
+    {
+      "code": "ENGL2101",
+      "name": "英語III",
+      "credit": 2
+    },
+    {
+      "code": "ENGL2102",
+      "name": "英語IV",
+      "credit": 2
+    },
+    {
+      "code": "VART2101",
+      "name": "藝用解剖與透視",
+      "credit": 2
+    },
+    {
+      "code": "VART2112",
+      "name": "中國畫基礎II",
+      "credit": 2
+    },
+    {
+      "code": "VART2122",
+      "name": "油畫基礎II",
+      "credit": 2
+    },
+    {
+      "code": "VART2132",
+      "name": "版畫基礎II",
+      "credit": 2
+    },
+    {
+      "code": "VART2142",
+      "name": "雕塑基礎II",
+      "credit": 2
+    },
+    {
+      "code": "VART2152",
+      "name": "陶藝基礎II",
+      "credit": 2
+    },
+    {
+      "code": "VART2181",
+      "name": "攝影與數碼圖像處理I",
+      "credit": 2
+    },
+    {
+      "code": "VART2191",
+      "name": "戶外寫生I",
+      "credit": 2
+    },
+    {
+      "code": "VART2193",
+      "name": "素描III",
+      "credit": 3
+    },
+    {
+      "code": "VART2194",
+      "name": "素描IV",
+      "credit": 4
+    },
+    {
+      "code": "---",
+      "name": "一門載於選修科目表A內的科目",
+      "credit": 2
+    },
+    {
+      "code": "---",
+      "name": "兩門載於選修科目表C1至C5內已選範疇的科目",
+      "credit": 4
+    },
+    {
+      "code": "---",
+      "name": "兩或四門載於已選專業範疇的科目",
+      "credit": 14
+    },
+    {
+      "code": "ENGL3101",
+      "name": "英語V",
+      "credit": 2
+    },
+    {
+      "code": "ENGL3102",
+      "name": "英語VI",
+      "credit": 2
+    },
+    {
+      "code": "VART3101",
+      "name": "中國民族民間藝術",
+      "credit": 2
+    },
+    {
+      "code": "VART3102",
+      "name": "視覺文化導論",
+      "credit": 2
+    },
+    {
+      "code": "VART3103",
+      "name": "篆刻",
+      "credit": 2
+    },
+    {
+      "code": "VART3104",
+      "name": "藝術社會學",
+      "credit": 2
+    },
+    {
+      "code": "VART3171",
+      "name": "專題工作坊I",
+      "credit": 1
+    },
+    {
+      "code": "VART3182",
+      "name": "攝影與數碼圖像處理II",
+      "credit": 2
+    },
+    {
+      "code": "VART3195",
+      "name": "素描V",
+      "credit": 4
+    },
+    {
+      "code": "VART3196",
+      "name": "素描VI",
+      "credit": 3
+    },
+    {
+      "code": "---",
+      "name": "兩門載於已選專業範疇的科目",
+      "credit": 8
+    },
+    {
+      "code": "---",
+      "name": "兩門載於選修科目表C1至C5內已選範疇的科目",
+      "credit": 14
+    },
+    {
+      "code": "VART4101",
+      "name": "當代藝術專題研習I",
+      "credit": 2
+    },
+    {
+      "code": "VART4102",
+      "name": "當代藝術專題研習II",
+      "credit": 2
+    },
+    {
+      "code": "VART4103",
+      "name": "東方藝術專題研究",
+      "credit": 2
+    },
+    {
+      "code": "VART4104",
+      "name": "西方藝術專題研究",
+      "credit": 2
+    },
+    {
+      "code": "VART4105",
+      "name": "畢業報告寫作技巧",
+      "credit": 2
+    },
+    {
+      "code": "VART4192",
+      "name": "戶外寫生II",
+      "credit": 3
+    },
+    {
+      "code": "VAED2101",
+      "name": "藝術教育概論",
+      "credit": 3
+    },
+    {
+      "code": "VAED2102",
+      "name": "教育心理學",
+      "credit": 3
+    },
+    {
+      "code": "VAED2103",
+      "name": "藝術教學法",
+      "credit": 3
+    },
+    {
+      "code": "VAED3101",
+      "name": "藝術課程設計",
+      "credit": 2
+    },
+    {
+      "code": "VAED3201",
+      "name": "教學實習",
+      "credit": 12
+    },
+    {
+      "code": "VAED4100",
+      "name": "畢業報告(美術教育專業)",
+      "credit": 6
+    },
+    {
+      "code": "VAED4101",
+      "name": "藝術教育專題研討",
+      "credit": 2
+    },
+    {
+      "code": "VAFA2101",
+      "name": "構圖與造形I",
+      "credit": 2
+    },
+    {
+      "code": "VAFA2102",
+      "name": "構圖與造形II",
+      "credit": 2
+    },
+    {
+      "code": "VAFA2103",
+      "name": "世界美術史",
+      "credit": 3
+    },
+    {
+      "code": "VAFA2201",
+      "name": "美術專修I",
+      "credit": 2
+    },
+    {
+      "code": "VAFA3101",
+      "name": "社會藝術實踐",
+      "credit": 6
+    },
+    {
+      "code": "VAFA3102",
+      "name": "創意素描",
+      "credit": 3
+    },
+    {
+      "code": "VAFA3172",
+      "name": "專題工作坊II",
+      "credit": 1
+    },
+    {
+      "code": "VAFA3202",
+      "name": "美術專修II",
+      "credit": 4
+    },
+    {
+      "code": "VAFA4100",
+      "name": "畢業報告(美術專業)",
+      "credit": 6
+    },
+    {
+      "code": "VAFA4101",
+      "name": "藝術管理",
+      "credit": 2
+    },
+    {
+      "code": "BUSS0112",
+      "name": "商業概論",
+      "credit": 2
+    },
+    {
+      "code": "CHIN0101",
+      "name": "大學語文I",
+      "credit": 2
+    },
+    {
+      "code": "CHIN0103",
+      "name": "中國文化導讀",
+      "credit": 2
+    },
+    {
+      "code": "CHIN0117",
+      "name": "中國古典詩詞欣賞",
+      "credit": 2
+    },
+    {
+      "code": "COMP0113",
+      "name": "電腦軟件技術",
+      "credit": 2
+    },
+    {
+      "code": "COMP0114",
+      "name": "資訊概論",
+      "credit": 2
+    },
+    {
+      "code": "COMP0115",
+      "name": "進階電腦應用",
+      "credit": 2
+    },
+    {
+      "code": "DSGN0116",
+      "name": "設計基礎",
+      "credit": 2
+    },
+    {
+      "code": "GEOG0107",
+      "name": "地理",
+      "credit": 2
+    },
+    {
+      "code": "HIST0104",
+      "name": "澳門歷史與文化",
+      "credit": 2
+    },
+    {
+      "code": "HIST0106",
+      "name": "世界文化與自然遺產",
+      "credit": 2
+    },
+    {
+      "code": "MRKT0111",
+      "name": "消費研究",
+      "credit": 2
+    },
+    {
+      "code": "MUS0109",
+      "name": "音樂與電影賞析",
+      "credit": 2
+    },
+    {
+      "code": "PEDU0102",
+      "name": "大學體育",
+      "credit": 2
+    },
+    {
+      "code": "PHIL0110",
+      "name": "哲學導論",
+      "credit": 2
+    },
+    {
+      "code": "SCIE0108",
+      "name": "自然生態環保科學",
+      "credit": 2
+    },
+    {
+      "code": "VART2113",
+      "name": "中國畫I",
+      "credit": 2
+    },
+    {
+      "code": "VART2114",
+      "name": "中國畫II",
+      "credit": 2
+    },
+    {
+      "code": "VART3115",
+      "name": "中國畫III",
+      "credit": 2
+    },
+    {
+      "code": "VART3116",
+      "name": "中國畫IV",
+      "credit": 2
+    },
+    {
+      "code": "VAGP4110",
+      "name": "畢業創作(中國畫)",
+      "credit": 8
+    },
+    {
+      "code": "VART4117",
+      "name": "中國畫創作思考與實踐",
+      "credit": 6
+    },
+    {
+      "code": "VART2123",
+      "name": "油畫I",
+      "credit": 2
+    },
+    {
+      "code": "VART2124",
+      "name": "油畫II",
+      "credit": 2
+    },
+    {
+      "code": "VART3125",
+      "name": "油畫III",
+      "credit": 2
+    },
+    {
+      "code": "VART3126",
+      "name": "油畫IV",
+      "credit": 2
+    },
+    {
+      "code": "VAGP4120",
+      "name": "畢業創作(油畫)",
+      "credit": 8
+    },
+    {
+      "code": "VART4127",
+      "name": "油畫創作思考與實踐",
+      "credit": 6
+    },
+    {
+      "code": "VART2133",
+      "name": "版畫I",
+      "credit": 2
+    },
+    {
+      "code": "VART2134",
+      "name": "版畫II",
+      "credit": 2
+    },
+    {
+      "code": "VART3135",
+      "name": "版畫III",
+      "credit": 2
+    },
+    {
+      "code": "VART3136",
+      "name": "版畫IV",
+      "credit": 2
+    },
+    {
+      "code": "VAGP4130",
+      "name": "畢業創作(版畫)",
+      "credit": 8
+    },
+    {
+      "code": "VART4137",
+      "name": "版畫創作思考與實踐",
+      "credit": 6
+    },
+    {
+      "code": "VART2143",
+      "name": "雕塑I",
+      "credit": 2
+    },
+    {
+      "code": "VART2144",
+      "name": "雕塑II",
+      "credit": 2
+    },
+    {
+      "code": "VART3145",
+      "name": "雕塑III",
+      "credit": 2
+    },
+    {
+      "code": "VART3146",
+      "name": "雕塑IV",
+      "credit": 2
+    },
+    {
+      "code": "VAGP4140",
+      "name": "畢業創作(雕塑)",
+      "credit": 8
+    },
+    {
+      "code": "VART4147",
+      "name": "雕塑創作思考與實踐",
+      "credit": 6
+    },
+    {
+      "code": "VART2153",
+      "name": "陶藝I",
+      "credit": 2
+    },
+    {
+      "code": "VART2154",
+      "name": "陶藝II",
+      "credit": 2
+    },
+    {
+      "code": "VART3155",
+      "name": "陶藝III",
+      "credit": 2
+    },
+    {
+      "code": "VART3156",
+      "name": "陶藝IV",
+      "credit": 2
+    },
+    {
+      "code": "VAGP4150",
+      "name": "畢業創作(陶藝)",
+      "credit": 8
+    },
+    {
+      "code": "VART4157",
+      "name": "陶藝創作思考與實踐",
+      "credit": 6
+    }
+  ]
+}

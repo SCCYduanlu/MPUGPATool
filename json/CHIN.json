@@ -1,0 +1,512 @@
+{
+    "majorCode": "CHIN",
+    "majorName": "國際漢語教育學士學位課程（適用於漢語母語者）",
+    "totalCredits": 150,
+    "courses": [
+        {
+            "code": "CHIN1117",
+            "name": "中國現代文學",
+            "credit": 3
+        },
+        {
+            "code": "CHIN1118",
+            "name": "中國當代文學",
+            "credit": 3
+        },
+        {
+            "code": "CHIN1121",
+            "name": "現代漢語I",
+            "credit": 3
+        },
+        {
+            "code": "CHIN1122",
+            "name": "現代漢語II",
+            "credit": 3
+        },
+        {
+            "code": "EDUC1100",
+            "name": "教育學概論",
+            "credit": 3
+        },
+        {
+            "code": "ENGL1107",
+            "name": "進階英語I",
+            "credit": 3
+        },
+        {
+            "code": "ENGL1108",
+            "name": "進階英語II",
+            "credit": 3
+        },
+        {
+            "code": "HIST1106",
+            "name": "中國通史",
+            "credit": 3
+        },
+        {
+            "code": "LLAW1110",
+            "name": "憲法與基本法",
+            "credit": 2
+        },
+        {
+            "code": "PORT1117",
+            "name": "初級葡語I",
+            "credit": 4
+        },
+        {
+            "code": "PORT1118",
+            "name": "初級葡語II",
+            "credit": 4
+        },
+        {
+            "code": "MAND1103",
+            "name": "普通話水平測試理論與實踐I",
+            "credit": 3
+        },
+        {
+            "code": "MAND1104",
+            "name": "普通話水平測試理論與實踐II",
+            "credit": 3
+        },
+        {
+            "code": "CANT1101",
+            "name": "粵語I",
+            "credit": 3
+        },
+        {
+            "code": "CANT1102",
+            "name": "粵語II",
+            "credit": 3
+        },
+        {
+            "code": "---",
+            "name": "修讀載於選修科目表A內的科目以取得2學分",
+            "credit": 2
+        },
+        {
+            "code": "CHIN2114",
+            "name": "中文寫作",
+            "credit": 3
+        },
+        {
+            "code": "CHIN2119",
+            "name": "中文應用寫作",
+            "credit": 3
+        },
+        {
+            "code": "CHIN2129",
+            "name": "中國古代文學I",
+            "credit": 3
+        },
+        {
+            "code": "CHIN2130",
+            "name": "中國古代文學II",
+            "credit": 3
+        },
+        {
+            "code": "CHIN2131",
+            "name": "語言學概論",
+            "credit": 3
+        },
+        {
+            "code": "CHIN2132",
+            "name": "文學概論",
+            "credit": 3
+        },
+        {
+            "code": "EDUC2100",
+            "name": "教育心理學",
+            "credit": 2
+        },
+        {
+            "code": "ENGL2113",
+            "name": "高級英語I",
+            "credit": 3
+        },
+        {
+            "code": "ENGL2114",
+            "name": "高級英語II",
+            "credit": 3
+        },
+        {
+            "code": "PORT2117",
+            "name": "中級葡語I",
+            "credit": 4
+        },
+        {
+            "code": "PORT2118",
+            "name": "中級葡語II",
+            "credit": 4
+        },
+        {
+            "code": "---",
+            "name": "修讀載於選修科目表B內的科目以取得6學分",
+            "credit": 6
+        },
+        {
+            "code": "CHIN3119",
+            "name": "古代漢語",
+            "credit": 3
+        },
+        {
+            "code": "CHIN3120",
+            "name": "中國文化概論",
+            "credit": 3
+        },
+        {
+            "code": "CHIN3121",
+            "name": "外國文學I",
+            "credit": 3
+        },
+        {
+            "code": "CHIN3122",
+            "name": "外國文學II",
+            "credit": 3
+        },
+        {
+            "code": "CHIN3123",
+            "name": "跨文化交際",
+            "credit": 3
+        },
+        {
+            "code": "EDUC3103",
+            "name": "漢語國際教學概論",
+            "credit": 3
+        },
+        {
+            "code": "EDUC3104",
+            "name": "漢語教學設計與實踐",
+            "credit": 2
+        },
+        {
+            "code": "ENGL3115",
+            "name": "高級英語III",
+            "credit": 2
+        },
+        {
+            "code": "ENGL3116",
+            "name": "高級英語IV",
+            "credit": 2
+        },
+        {
+            "code": "PORT3117",
+            "name": "高級葡語I",
+            "credit": 4
+        },
+        {
+            "code": "PORT3118",
+            "name": "高級葡語II",
+            "credit": 4
+        },
+        {
+            "code": "---",
+            "name": "修讀載於選修科目表C內的科目以取得6學分",
+            "credit": 6
+        },
+        {
+            "code": "CHIN4100",
+            "name": "畢業論文",
+            "credit": 6
+        },
+        {
+            "code": "CHIN4115",
+            "name": "研究方法與論文寫作",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4117",
+            "name": "比較文學概論",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4125",
+            "name": "中文傳意I",
+            "credit": 3
+        },
+        {
+            "code": "CHIN4126",
+            "name": "中文傳意II",
+            "credit": 3
+        },
+        {
+            "code": "TRAN4118",
+            "name": "葡漢翻譯",
+            "credit": 2
+        },
+        {
+            "code": "TRAN4119",
+            "name": "漢葡翻譯",
+            "credit": 2
+        },
+        {
+            "code": "TRAN4120",
+            "name": "英漢翻譯",
+            "credit": 2
+        },
+        {
+            "code": "TRAN4121",
+            "name": "漢英翻譯",
+            "credit": 2
+        },
+        {
+            "code": "COMP1112",
+            "name": "進階電腦應用",
+            "credit": 2
+        },
+        {
+            "code": "ENGL1113",
+            "name": "英語語法",
+            "credit": 2
+        },
+        {
+            "code": "ENGL1114",
+            "name": "進階英語聽說",
+            "credit": 2
+        },
+        {
+            "code": "GEOG1100",
+            "name": "中國人文地理",
+            "credit": 2
+        },
+        {
+            "code": "HIST1100",
+            "name": "澳門歷史與文化",
+            "credit": 2
+        },
+        {
+            "code": "PADM1120",
+            "name": "公共行政概論",
+            "credit": 2
+        },
+        {
+            "code": "PEDU1110",
+            "name": "大學體育",
+            "credit": 2
+        },
+        {
+            "code": "PORT1113",
+            "name": "葡語語法I",
+            "credit": 2
+        },
+        {
+            "code": "PORT1114",
+            "name": "葡語語法II",
+            "credit": 2
+        },
+        {
+            "code": "CHIN2133",
+            "name": "語言調查",
+            "credit": 2
+        },
+        {
+            "code": "CHIN2134",
+            "name": "漢語國際教學語法",
+            "credit": 2
+        },
+        {
+            "code": "CHIN2135",
+            "name": "漢語修辭學",
+            "credit": 2
+        },
+        {
+            "code": "CHIN2136",
+            "name": "小說欣賞與研究",
+            "credit": 2
+        },
+        {
+            "code": "ENGL2115",
+            "name": "英文應用寫作",
+            "credit": 2
+        },
+        {
+            "code": "ENGL2116",
+            "name": "英語演講與辯論",
+            "credit": 2
+        },
+        {
+            "code": "HIST2104",
+            "name": "當代中國概況",
+            "credit": 2
+        },
+        {
+            "code": "HIST2105",
+            "name": "美國社會與文化",
+            "credit": 2
+        },
+        {
+            "code": "PORT2119",
+            "name": "葡語聽說",
+            "credit": 2
+        },
+        {
+            "code": "PORT2120",
+            "name": "葡語國家社會與文化",
+            "credit": 2
+        },
+        {
+            "code": "PSYC2100",
+            "name": "心理學導論",
+            "credit": 3
+        },
+        {
+            "code": "SOCI2110",
+            "name": "社會學概論",
+            "credit": 3
+        },
+        {
+            "code": "CHIN3124",
+            "name": "漢語史",
+            "credit": 2
+        },
+        {
+            "code": "CHIN3125",
+            "name": "澳門語言與社會",
+            "credit": 2
+        },
+        {
+            "code": "CHIN3126",
+            "name": "中國人文經典導讀",
+            "credit": 3
+        },
+        {
+            "code": "CHIN3127",
+            "name": "唐詩賞析",
+            "credit": 2
+        },
+        {
+            "code": "CHIN3128",
+            "name": "商業寫作",
+            "credit": 2
+        },
+        {
+            "code": "CHIN3129",
+            "name": "傳媒與社會",
+            "credit": 2
+        },
+        {
+            "code": "EDUC3101",
+            "name": "教學實習I",
+            "credit": 3
+        },
+        {
+            "code": "EDUC3102",
+            "name": "教學實習II",
+            "credit": 3
+        },
+        {
+            "code": "ENGL3117",
+            "name": "英國文學概要",
+            "credit": 2
+        },
+        {
+            "code": "ENGL3118",
+            "name": "美國文學概要",
+            "credit": 2
+        },
+        {
+            "code": "HIST3104",
+            "name": "嶺南社會與文化",
+            "credit": 2
+        },
+        {
+            "code": "HIST3105",
+            "name": "中外文化交流史",
+            "credit": 2
+        },
+        {
+            "code": "HIST3106",
+            "name": "葡萄牙人東方史",
+            "credit": 3
+        },
+        {
+            "code": "HIST3107",
+            "name": "歐洲文化概要",
+            "credit": 2
+        },
+        {
+            "code": "PORT3119",
+            "name": "葡語泛讀I",
+            "credit": 2
+        },
+        {
+            "code": "PORT3120",
+            "name": "葡語泛讀II",
+            "credit": 2
+        },
+        {
+            "code": "CANT4100",
+            "name": "粵語研究",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4114",
+            "name": "宋詞賞析",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4116",
+            "name": "翻譯與比較文化研究",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4118",
+            "name": "影視導賞",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4119",
+            "name": "語言實習",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4120",
+            "name": "公文寫作",
+            "credit": 2
+        },
+        {
+            "code": "CHIN4122",
+            "name": "語言與文化專題講座",
+            "credit": 2
+        },
+        {
+            "code": "ENGL4100",
+            "name": "英語史",
+            "credit": 2
+        },
+        {
+            "code": "ENGL4103",
+            "name": "英語水平測試理論與實踐",
+            "credit": 2
+        },
+        {
+            "code": "MGMT4100",
+            "name": "公共關係暨危機管理",
+            "credit": 3
+        },
+        {
+            "code": "PORT4105",
+            "name": "葡語寫作",
+            "credit": 2
+        },
+        {
+            "code": "PORT4106",
+            "name": "葡語文學作品選讀",
+            "credit": 2
+        },
+        {
+            "code": "PORT4107",
+            "name": "葡文傳意I",
+            "credit": 2
+        },
+        {
+            "code": "PORT4108",
+            "name": "葡文傳意II",
+            "credit": 2
+        },
+        {
+            "code": "TRAN4122",
+            "name": "旅遊和博彩翻譯",
+            "credit": 2
+        }
+    ]
+}

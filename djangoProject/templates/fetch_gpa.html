@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>MPU GPA Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: white;
+        }
+
+        #progress-container {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 15px;
+            width: 100%; /* 确保宽度适应屏幕 */
+            max-width: 600px; /* 最大宽度限制，避免在非常大的屏幕上过宽 */
+            margin: 0 auto; /* 水平居中 */
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box; /* 确保边距不会超出屏幕 */
+        }
+        
+        @media (max-width: 768px) {
+            #progress-container {
+                width: 90%; /* 在小屏设备上，容器宽度为 90% */
+                max-width: 95%; /* 最大宽度为 95% */
+            }
+        }
+        
+        @media (max-width: 480px) {
+            #progress-container {
+                width: 95%; /* 在手机设备上，容器宽度为 95% */
+                max-width: 100%; /* 最大宽度为 100% */
+            }
+        }
+
+        #progress-bar {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 12px;
+            margin-top: 10px;
+        }
+        #progress {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            transition: width 0.5s ease-in-out;
+        }
+        #progress.error {
+            background: red !important;
+        }
+        #loading-text {
+            color: #333;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* 添加这个样式来支持表格的横向滚动 */
+        #gpa-table-wrapper {
+            overflow-x: auto;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        #gpa-table {
+            display: none;
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        #gpa-table th, #gpa-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            white-space: nowrap; /* 防止内容换行，强制横向显示 */
+        }
+
+        #gpa-table th {
+            background: #007bff;
+            color: white;
+        }
+
+        #gpa-summary {
+            display: none;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 30px;
+        }
+
+        #gpa-summary h2 {
+            font-size: 22px;
+            color: #007bff;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        .gpa-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: left;
+            padding: 10px 0;
+        }
+
+        .gpa-box {
+            flex: 1 1 45%;
+            background: rgba(230, 230, 230, 0.8);
+            padding: 12px;
+            border-radius: 10px;
+            margin: 8px;
+            font-size: 16px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight-box {
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding: 12px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        #required-gpa-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .required-gpa-item {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px;
+            margin: 5px;
+            border-radius: 8px;
+        }
+
+        .gpa-reachable {
+            color: green;
+        }
+
+        .gpa-unreachable {
+            color: red;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            #gpa-summary {
+                width: 90%;
+            }
+
+            .gpa-box {
+                flex: 1 1 100%;
+                margin: 5px;
+            }
+
+            #gpa-table th, #gpa-table td {
+                font-size: 12px;
+                padding: 8px;
+            }
+
+            #progress-container {
+                width: 95%;
+            }
+
+            .highlight-box {
+                font-size: 16px;
+                padding: 10px;
+            }
+        }
+
+        /* 增加支持小屏幕的改进 */
+        @media (max-width: 480px) {
+            #gpa-summary h2 {
+                font-size: 18px;
+            }
+
+            .gpa-box {
+                font-size: 14px;
+            }
+
+            #progress-container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>MPU GPA Tool</h1>
+
+    <!-- 进度框 -->
+    <div id="progress-container">
+        <p id="loading-text">正在连接服务器...</p>
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+    </div>
+
+    <!-- GPA 详细表格 包裹在一个可以滚动的容器内 -->
+    <div id="gpa-table-wrapper">
+        <table id="gpa-table">
+            <thead>
+                <tr>
+                    <th>学年</th>
+                    <th>学期</th>
+                    <th>课程代码</th>
+                    <th>课节代码</th>
+                    <th>课程名称 (英)</th>
+                    <th>课程名称 (中)</th>
+                    <th>成绩</th>
+                    <th>GPA</th>
+                    <th>学分</th>
+                </tr>
+            </thead>
+            <tbody id="gpa-table-body"></tbody>
+        </table>
+    </div>
+
+    <!-- GPA 总览部分 -->
+    <div id="gpa-summary">
+        <h2>📊 GPA 计算结果</h2>
+        <div class="gpa-container">
+            <div class="gpa-box"><strong>专业代号:</strong> <span id="major-code"></span></div>
+            <div class="gpa-box"><strong>专业名称:</strong> <span id="major-name"></span></div>
+            <div class="gpa-box"><strong>总学分:</strong> <span id="total-credits"></span></div>
+            <div class="gpa-box"><strong>已修学分:</strong> <span id="completed-credits"></span></div>
+            <div class="gpa-box"><strong>未修学分:</strong> <span id="remaining-credits"></span></div>
+        </div>
+    
+        <div class="highlight-box">
+            📈 当前 GPA: <span id="final-gpa"></span>
+        </div>
+    
+        <h3>🎯 目标 GPA 计算</h3>
+        <ul id="required-gpa-list"></ul>
+    
+        <!-- GPA 折线图 -->
+        <div class="gpa-chart">
+            <br>
+            <h3>📊 已读科目 GPA 曲线</h3>
+            <canvas id="gpa-line-chart"></canvas>
+        </div>
+    </div>
+
+
+
+    <script>
+        function fetchGPA() {
+            const progressContainer = document.getElementById("progress-container");
+            const progress = document.getElementById("progress");
+            const loadingText = document.getElementById("loading-text");
+            const gpaTable = document.getElementById("gpa-table");
+            const gpaTableBody = document.getElementById("gpa-table-body");
+            const gpaSummary = document.getElementById("gpa-summary");
+            let gpaSummaryData = null;
+            let gpaData = [];
+            let progressValue = 0;
+            let hasReceivedValidData = false; // 标志变量，跟踪是否收到有效数据
+            let lastNonJsonMessage = ""; // 用于存储最后一条非 JSON 数据
+        
+            fetch("/fetch_gpa/stream/")
+                .then(response => {
+                    const reader = response.body.getReader();
+                    const decoder = new TextDecoder();
+        
+                    function read() {
+                        reader.read().then(({ done, value }) => {
+                            if (done) {
+                                // 如果没有收到有效数据，则更新进度条为 100% 并显示错误
+                                if (!hasReceivedValidData) {
+                                    console.error("❌ 没有收到有效的 GPA 数据！");
+                                    loadingText.innerText = lastNonJsonMessage || "❌ 没有收到有效的 GPA 数据，请重试！"; // 显示最后一条非 JSON 数据
+                                    progress.style.width = "100%";  // 直接跳到 100%
+                                    progress.classList.add("error"); // 显示错误样式
+                                    progressContainer.style.display = "block"; // 确保显示进度条
+                                } else {
+                                    // 流读取完成，隐藏进度条，显示 GPA 数据表格
+                                    progressContainer.style.display = "none"; 
+                                    gpaTable.style.display = "table";
+        
+                                    if (gpaSummaryData) {
+                                        gpaSummary.style.display = "block"; 
+                                        renderGpaSummary(gpaSummaryData);
+                                    } else {
+                                        console.error("❌ GPA 总览数据丢失！");
+                                        loadingText.innerText = "❌ GPA 数据丢失，请重试！";
+                                    }
+                                }
+                                return;
+                            }
+        
+                            let logMessage = decoder.decode(value, { stream: true }).trim();
+        
+                            if (logMessage.startsWith("{") && logMessage.endsWith("}")) {
+                                try {
+                                    let parsedData = JSON.parse(logMessage);
+                                    console.log("📩 收到 JSON 数据:", parsedData);
+        
+                                    if (parsedData.hasOwnProperty("majorCode")) {
+                                        gpaSummaryData = parsedData;
+                                        hasReceivedValidData = true; // 收到有效数据
+                                    } else {
+                                        gpaData.push(parsedData);
+                                        renderGpaTable([parsedData]);
+                                        updateProgress();
+                                        hasReceivedValidData = true; // 收到有效数据
+                                    }
+                                } catch (e) {
+                                    console.error("❌ JSON 解析失败:", logMessage);
+                                }
+                            } else {
+                                // 存储最后一条非 JSON 数据
+                                lastNonJsonMessage = logMessage;
+                                loadingText.innerText = logMessage;
+                                updateProgress(logMessage);
+                            }
+        
+                            read(); // 继续读取下一个数据块
+                        });
+                    }
+        
+                    read(); // 启动流式读取
+                })
+                .catch(error => {
+                    // 请求失败时，设置进度条为 100% 并显示错误
+                    loadingText.innerText = lastNonJsonMessage || "❌ 获取数据失败，请重试！"; // 显示最后一条非 JSON 数据
+                    progress.style.width = "100%";  // 直接跳到 100%
+                    progress.classList.add("error");
+                    progressContainer.style.display = "block"; // 确保显示进度条
+                });
+        }
+
+
+        
+        
+        // ✅ 更新进度条
+        function updateProgress(message = "") {
+            if (message.includes("失败")) {
+                progress.style.width = "100%";
+                progress.classList.add("error");
+            } else if (message.includes("（1/4）")) {
+                progress.style.width = "25%";
+            } else if (message.includes("（2/4）")) {
+                progress.style.width = "50%";
+            } else if (message.includes("（3/4）")) {
+                progress.style.width = "75%";
+            } else if (message.includes("（4/4）")) {
+                progress.style.width = "100%";
+            }
+        }
+        
+        // ✅ 渲染 GPA 课程数据到表格
+        function renderGpaTable(data) {
+            const gpaTableBody = document.getElementById("gpa-table-body");
+        
+            data.forEach(entry => {
+                let row = document.createElement("tr");
+                row.innerHTML = `
+                    <td>${entry.year}</td>
+                    <td>${entry.sem}</td>
+                    <td>${entry.code}</td>
+                    <td>${entry.section_code}</td>
+                    <td>${entry.english_name}</td>
+                    <td>${entry.chinese_name}</td>
+                    <td>${entry.final_grade_numeric}</td>
+                    <td>${entry.gpa}</td>
+                    <td>${entry.credit}</td>
+                `;
+                gpaTableBody.appendChild(row);
+            });
+        }
+        
+        // ✅ 渲染 GPA 总览数据
+        function renderGpaSummary(data) {
+            document.getElementById("major-code").textContent = data.majorCode;
+            document.getElementById("major-name").textContent = data.majorName;
+            document.getElementById("total-credits").textContent = data.totalCredits;
+            document.getElementById("completed-credits").textContent = data.completedCredits;
+            document.getElementById("remaining-credits").textContent = data.remainingCredits;
+            document.getElementById("final-gpa").textContent = data.currentGpa.toFixed(2);
+        
+            const requiredGpaList = document.getElementById("required-gpa-list");
+            requiredGpaList.innerHTML = "";
+            for (let target in data.requiredGpas) {
+                let listItem = document.createElement("li");
+                listItem.classList.add("required-gpa-item");
+        
+                if (data.requiredGpas[target] === "不可达到") {
+                    listItem.classList.add("gpa-unreachable"); // 红色
+                } else {
+                    listItem.classList.add("gpa-reachable"); // 绿色
+                }
+        
+                listItem.innerHTML = `达到 ${target} 所需 GPA: <span>${data.requiredGpas[target]}</span>`;
+                requiredGpaList.appendChild(listItem);
+            }
+            
+            // 渲染 GPA 折线图
+            renderGpaLineChart(data.GPAChart);
+        }
+        
+        function renderGpaLineChart(semesterGpa) {
+            const ctx = document.getElementById("gpa-line-chart").getContext("2d");
+        
+            // 处理折线图所需的数据
+            const labels = semesterGpa.map(entry => `${entry.chinese_name}`);
+            const gpaValues = semesterGpa.map(entry => entry.gpa);
+        
+            const chartData = {
+                labels: labels,
+                datasets: [{
+                    label: 'GPA 趋势',
+                    data: gpaValues,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            };
+        
+            const config = {
+                type: 'line',
+                data: chartData,
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: '课程名称'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'GPA'
+                            },
+                            min: 0,
+                            max: 4.0
+                        }
+                    }
+                }
+            };
+        
+            // 创建图表
+            new Chart(ctx, config);
+        }
+
+        
+        // ✅ 启动 GPA 获取流程
+        fetchGPA();
+
+    </script>
+</body>
+</html>

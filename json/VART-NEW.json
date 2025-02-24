@@ -1,0 +1,297 @@
+{
+  "majorCode": "VART-NEW",
+  "majorName": "視覺藝術學士學位課程（適用於2023/2024學年入學或以後）",
+  "totalCredits": 120,
+  "courses": [
+    {
+      "code": "ENGL1101",
+      "name": "英語I",
+      "credit": 3
+    },
+    {
+      "code": "ENGL1102",
+      "name": "英語II",
+      "credit": 3
+    },
+    {
+      "code": "LLAW1110",
+      "name": "憲法與基本法",
+      "credit": 2
+    },
+    {
+      "code": "VACP1101",
+      "name": "色彩學",
+      "credit": 3
+    },
+    {
+      "code": "VACP1102",
+      "name": "素描基礎",
+      "credit": 3
+    },
+    {
+      "code": "VACP1103",
+      "name": "造型基礎",
+      "credit": 3
+    },
+    {
+      "code": "VACP1104",
+      "name": "版畫基礎",
+      "credit": 3
+    },
+    {
+      "code": "VACP1105",
+      "name": "水墨基礎",
+      "credit": 3
+    },
+    {
+      "code": "VACP1106",
+      "name": "油畫基礎",
+      "credit": 3
+    },
+    {
+      "code": "VACP1107",
+      "name": "陶藝基礎",
+      "credit": 3
+    },
+    {
+      "code": "VACP1108",
+      "name": "中國美術史",
+      "credit": 3
+    },
+    {
+      "code": "VACP1109",
+      "name": "西方美術史",
+      "credit": 3
+    },
+    {
+      "code": "COMP2101",
+      "name": "資訊科技",
+      "credit": 3
+    },
+    {
+      "code": "ENGL2101",
+      "name": "英語III",
+      "credit": 3
+    },
+    {
+      "code": "ENGL2102",
+      "name": "英語IV",
+      "credit": 3
+    },
+    {
+      "code": "HIST2110",
+      "name": "中國歷史文化",
+      "credit": 2
+    },
+    {
+      "code": "SOCI2111",
+      "name": "社會可持續發展",
+      "credit": 2
+    },
+    {
+      "code": "VACP2101",
+      "name": "創意素描",
+      "credit": 3
+    },
+    {
+      "code": "VACP2102",
+      "name": "西方繪畫創作",
+      "credit": 3
+    },
+    {
+      "code": "VACP2103",
+      "name": "視覺文化導論",
+      "credit": 3
+    },
+    {
+      "code": "VACP2104",
+      "name": "影像與媒介表達",
+      "credit": 3
+    },
+    {
+      "code": "VACP3101",
+      "name": "實驗藝術",
+      "credit": 3
+    },
+    {
+      "code": "VACP3102",
+      "name": "當代藝術導論",
+      "credit": 3
+    },
+    {
+      "code": "VACP3103",
+      "name": "社會藝術實踐",
+      "credit": 3
+    },
+    {
+      "code": "VAWS3101",
+      "name": "專題工作坊I",
+      "credit": 3
+    },
+    {
+      "code": "VAWS3102",
+      "name": "專題工作坊II",
+      "credit": 3
+    },
+    {
+      "code": "VACP4101",
+      "name": "藝術專題研討",
+      "credit": 3
+    },
+    {
+      "code": "VAGD4101",
+      "name": "畢業創作I",
+      "credit": 6
+    },
+    {
+      "code": "VAGD4102",
+      "name": "畢業創作II",
+      "credit": 6
+    },
+    {
+      "code": "VAFA0111",
+      "name": "中國山水畫",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0112",
+      "name": "泥塑與翻模",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0113",
+      "name": "造型建模",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0114",
+      "name": "創意寫作",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0115",
+      "name": "平版與孔版畫",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0116",
+      "name": "陶藝拉胚與模製",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0117",
+      "name": "公共藝術",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0118",
+      "name": "藝術策展",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0121",
+      "name": "中國人物畫",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0122",
+      "name": "雕刻創作",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0123",
+      "name": "影像製作",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0124",
+      "name": "藝術管理",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0125",
+      "name": "凹版畫與混合創作",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0126",
+      "name": "陶瓷配釉與燒成",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0127",
+      "name": "新媒體藝術",
+      "credit": 3
+    },
+    {
+      "code": "VAFA0128",
+      "name": "藝術評論",
+      "credit": 3
+    },
+    {
+      "code": "VAEU2101",
+      "name": "教育學",
+      "credit": 3
+    },
+    {
+      "code": "VAEU2102",
+      "name": "教育心理與輔導",
+      "credit": 3
+    },
+    {
+      "code": "VAEU2103",
+      "name": "課程與教學法（視覺藝術教育）",
+      "credit": 3
+    },
+    {
+      "code": "VAEU3201",
+      "name": "教學實習I",
+      "credit": 6
+    },
+    {
+      "code": "VAEU3202",
+      "name": "教學實習II",
+      "credit": 6
+    },
+    {
+      "code": "VAFA0124",
+      "name": "藝術管理",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0101",
+      "name": "美學賞析",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0102",
+      "name": "名畫故事",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0103",
+      "name": "藝術與電影",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0104",
+      "name": "藝術概論",
+      "credit": 3
+    },
+    {
+      "code": "ARTS0105",
+      "name": "舞台音樂欣賞",
+      "credit": 3
+    },
+    {
+      "code": "BUSS0101",
+      "name": "創業與創新",
+      "credit": 3
+    },
+    {
+      "code": "PEDU0101",
+      "name": "大學體育",
+      "credit": 3
+    }
+  ]
+}

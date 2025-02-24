@@ -1,0 +1,5 @@
+requests==2.31.0
+beautifulsoup4==2.31.0
+chardet==5.2.0
+django==5.0.2
+urllib3==2.2.1

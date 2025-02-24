@@ -1,0 +1,378 @@
+{
+    "majorCode": "CMOP-NEW",
+    "majorName": "電腦學理學士學位課程（適用於2023/2024學年入學或以後）",
+    "totalCredits": 126,
+    "courses": [
+      {
+        "code": "COMP1121",
+        "name": "計算機科學導論及其應用",
+        "credit": 3
+      },
+      {
+        "code": "COMP1122",
+        "name": "程式設計導論",
+        "credit": 3
+      },
+      {
+        "code": "COMP1123",
+        "name": "計算機組成原理",
+        "credit": 3
+      },
+      {
+        "code": "COMP1124",
+        "name": "進階程式設計",
+        "credit": 3
+      },
+      {
+        "code": "COMP1125",
+        "name": "電子商貿導論",
+        "credit": 3
+      },
+      {
+        "code": "HIST1110",
+        "name": "中國歷史文化",
+        "credit": 2
+      },
+      {
+        "code": "LLAW1120",
+        "name": "憲法與基本法",
+        "credit": 2
+      },
+      {
+        "code": "MATH1111",
+        "name": "線性代數",
+        "credit": 3
+      },
+      {
+        "code": "MATH1112",
+        "name": "微積分",
+        "credit": 3
+      },
+      {
+        "code": "MATH1113",
+        "name": "離散數學",
+        "credit": 3
+      },
+      {
+        "code": "MENG1111",
+        "name": "英語I",
+        "credit": 3
+      },
+      {
+        "code": "MENG1112",
+        "name": "英語II",
+        "credit": 3
+      },
+      {
+        "code": "COMP2111",
+        "name": "資料庫設計",
+        "credit": 3
+      },
+      {
+        "code": "COMP2112",
+        "name": "數據結構與算法",
+        "credit": 3
+      },
+      {
+        "code": "COMP2113",
+        "name": "操作系統",
+        "credit": 3
+      },
+      {
+        "code": "COMP2114",
+        "name": "電腦專業道德概論",
+        "credit": 3
+      },
+      {
+        "code": "COMP2115",
+        "name": "網頁設計與開發",
+        "credit": 3
+      },
+      {
+        "code": "COMP2116",
+        "name": "軟件工程",
+        "credit": 3
+      },
+      {
+        "code": "COMP2117",
+        "name": "電腦網絡",
+        "credit": 3
+      },
+      {
+        "code": "MATH2111",
+        "name": "統計學",
+        "credit": 3
+      },
+      {
+        "code": "MENG2111",
+        "name": "英語III",
+        "credit": 3
+      },
+      {
+        "code": "MENG2112",
+        "name": "英語IV",
+        "credit": 3
+      },
+      {
+        "code": "SOCI1112",
+        "name": "社會可持續發展",
+        "credit": 2
+      },
+      {
+        "code": "---",
+        "name": "修讀載於選修科目-組別A表中的之學科單元 / 科目以取得至少6學分",
+        "credit": 6
+      },
+      {
+        "code": "---",
+        "name": "修讀載於所屬專業科目表之學科單元 / 科目以取得至少9學分",
+        "credit": 9
+      },
+      {
+        "code": "COMP3112",
+        "name": "項目管理",
+        "credit": 3
+      },
+      {
+        "code": "COMP3113",
+        "name": "人工智能",
+        "credit": 3
+      },
+      {
+        "code": "COMP3114",
+        "name": "資訊系統項目",
+        "credit": 3
+      },
+      {
+        "code": "COMP3115",
+        "name": "人機接口技術",
+        "credit": 3
+      },
+      {
+        "code": "COMP3122",
+        "name": "進階網頁應用開發",
+        "credit": 3
+      },
+      {
+        "code": "MENG3111",
+        "name": "科學傳播",
+        "credit": 3
+      },
+      {
+        "code": "---",
+        "name": "修讀載於所屬專業科目表之學科單元 / 科目以取得至少6學分",
+        "credit": 6
+      },
+      {
+        "code": "---",
+        "name": "修讀載於選修科目-組別B表中的之學科單元 / 科目以取得至少6學分",
+        "credit": 6
+      },
+      {
+        "code": "COMP4111",
+        "name": "電腦安全與保密",
+        "credit": 3
+      },
+      {
+        "code": "COMP4299",
+        "name": "畢業項目",
+        "credit": 12
+      },
+      {
+        "code": "COMP3116",
+        "name": "數據驅動商業管理",
+        "credit": 3
+      },
+      {
+        "code": "COMP3117",
+        "name": "分析數據設計與應用",
+        "credit": 3
+      },
+      {
+        "code": "COMP3118",
+        "name": "數據科學與商業分析",
+        "credit": 3
+      },
+      {
+        "code": "COMP4112",
+        "name": "企業系統應用開發",
+        "credit": 3
+      },
+      {
+        "code": "COMP4113",
+        "name": "資訊系統策略性規劃",
+        "credit": 3
+      },
+      {
+        "code": "COMP3118",
+        "name": "數據科學與商業分析",
+        "credit": 3
+      },
+      {
+        "code": "COMP3119",
+        "name": "博彩科技原理",
+        "credit": 3
+      },
+      {
+        "code": "COMP3121",
+        "name": "博彩系統與技術標準",
+        "credit": 3
+      },
+      {
+        "code": "COMP4114",
+        "name": "電腦遊戲設計及開發",
+        "credit": 3
+      },
+      {
+        "code": "COMP4115",
+        "name": "智慧旅遊特選論題",
+        "credit": 3
+      },
+      {
+        "code": "EDUC3111",
+        "name": "教育學",
+        "credit": 3
+      },
+      {
+        "code": "EDUC3112",
+        "name": "教育心理與輔導",
+        "credit": 3
+      },
+      {
+        "code": "EDUC3113",
+        "name": "課程與教學法（資訊科技中學教育）",
+        "credit": 3
+      },
+      {
+        "code": "EDUC4111",
+        "name": "教學實習I2",
+        "credit": 3
+      },
+      {
+        "code": "EDUC4112",
+        "name": "教學實習II2",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3101",
+        "name": "心理學導論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3102",
+        "name": "社會學導論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3103",
+        "name": "經濟與金融學概論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3104",
+        "name": "公共行政導論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3105",
+        "name": "市場學",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3106",
+        "name": "人力資源管理",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3107",
+        "name": "人際關係",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3108",
+        "name": "會計學原理",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3109",
+        "name": "商業危機管理導論",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3110",
+        "name": "電子政務",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3111",
+        "name": "特別論題I",
+        "credit": 3
+      },
+      {
+        "code": "MSEL3112",
+        "name": "特別論題II",
+        "credit": 3
+      },
+      {
+        "code": "COMP4116",
+        "name": "數字圖像和多媒體處理",
+        "credit": 3
+      },
+      {
+        "code": "COMP4117",
+        "name": "數位取證",
+        "credit": 3
+      },
+      {
+        "code": "COMP4118",
+        "name": "IP路由",
+        "credit": 3
+      },
+      {
+        "code": "COMP4119",
+        "name": "移動計算與無線網絡",
+        "credit": 3
+      },
+      {
+        "code": "COMP4120",
+        "name": "自然語言處理",
+        "credit": 3
+      },
+      {
+        "code": "COMP4121",
+        "name": "機器翻譯",
+        "credit": 3
+      },
+      {
+        "code": "COMP4122",
+        "name": "STEM教育: 物聯網基礎知識",
+        "credit": 3
+      },
+      {
+        "code": "COMP4123",
+        "name": "效能評價",
+        "credit": 3
+      },
+      {
+        "code": "COMP4124",
+        "name": "數據庫管理系統",
+        "credit": 3
+      },
+      {
+        "code": "COMP4125",
+        "name": "特選論題I",
+        "credit": 3
+      },
+      {
+        "code": "COMP4126",
+        "name": "特選論題II",
+        "credit": 3
+      },
+      {
+        "code": "COMP4127",
+        "name": "專業實習3",
+        "credit": 3
+      }
+    ]
+  }
+  
